@@ -760,9 +760,9 @@ ul { list-style: none; }
 
 /* ─── Stats Band ────────────────────────────────────────────── */
 .stats-band {
-  background: #eaedee;
-  border-top: 1px solid #d1d5d7;
-  border-bottom: 1px solid #d1d5d7;
+  background: #1e2a2e;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   padding: 48px 40px;
 }
 
@@ -793,12 +793,12 @@ ul { list-style: none; }
 }
 .stat-number span { font-size: 1.8rem; }
 
-.stat-label { font-size: 0.85rem; color: #475569; font-weight: 500; }
+.stat-label { font-size: 0.85rem; color: rgba(255,255,255,0.6); font-weight: 500; }
 
 .stat-divider {
   width: 1px;
   height: 48px;
-  background: #c4c9cb;
+  background: rgba(255,255,255,0.15);
   flex-shrink: 0;
 }
 
