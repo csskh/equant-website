@@ -663,7 +663,7 @@ ul { list-style: none; }
 /* ─── Brands / Partners ─────────────────────────────────────── */
 .brands-section {
   padding: 80px 40px;
-  background: #ffffff;
+  background: #eaedee;
   overflow: hidden;
 }
 
@@ -691,19 +691,19 @@ ul { list-style: none; }
 }
 .brands-fade--left {
   left: 0;
-  background: linear-gradient(to right, #ffffff, transparent);
+  background: linear-gradient(to right, #eaedee, transparent);
 }
 .brands-fade--right {
   right: 0;
-  background: linear-gradient(to left, #ffffff, transparent);
+  background: linear-gradient(to left, #eaedee, transparent);
 }
 .partners-fade--left {
   left: 0;
-  background: linear-gradient(to right, #ffffff, transparent);
+  background: linear-gradient(to right, #eaedee, transparent);
 }
 .partners-fade--right {
   right: 0;
-  background: linear-gradient(to left, #ffffff, transparent);
+  background: linear-gradient(to left, #eaedee, transparent);
 }
 
 .brands-track {
@@ -744,7 +744,7 @@ ul { list-style: none; }
 
 .partners-section {
   padding: 80px 40px;
-  background: #ffffff;
+  background: #eaedee;
   overflow: hidden;
 }
 
@@ -758,9 +758,9 @@ ul { list-style: none; }
 
 /* ─── Stats Band ────────────────────────────────────────────── */
 .stats-band {
-  background: #ffffff;
-  border-top: 1px solid #e5e7eb;
-  border-bottom: 1px solid #e5e7eb;
+  background: #1e2a2e;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   padding: 48px 40px;
 }
 
@@ -791,19 +791,19 @@ ul { list-style: none; }
 }
 .stat-number span { font-size: 1.8rem; }
 
-.stat-label { font-size: 0.85rem; color: #475569; font-weight: 500; }
+.stat-label { font-size: 0.85rem; color: rgba(255,255,255,0.6); font-weight: 500; }
 
 .stat-divider {
   width: 1px;
   height: 48px;
-  background: #e5e7eb;
+  background: rgba(255,255,255,0.15);
   flex-shrink: 0;
 }
 
 /* ─── Contact ───────────────────────────────────────────────── */
 .contact-section {
   padding: 96px 40px;
-  background: #ffffff;
+  background: #eaedee;
 }
 
 .contact-inner {
