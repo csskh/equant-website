@@ -24,10 +24,19 @@
 </header>
 
 <section class="hero-section hero-static" id="hero">
-  <video class="hero-bg-video" autoplay muted loop playsinline onerror="this.style.display='none';">
-    <source src="images/backgrounds/hero-bg.mp4" type="video/mp4">
-  </video>
-  <div class="hero-bg-image" style="background-image: url('images/backgrounds/hero-bg.jpg');"></div>
+  <!-- Mobile: imagen estática fija -->
+  <div class="hero-bg-mobile" style="background-image: url('images/backgrounds/hero-bg.jpg');"></div>
+
+  <!-- Desktop: slideshow automático de imágenes -->
+  <div class="hero-slideshow" aria-hidden="true">
+    <div class="hero-slide is-active" style="background-image: url('images/backgrounds/Pantallas%20digitales/digital%20signage.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Networking/fibra.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Networking/redesutp.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Switching%20y%20routing/cableado.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Seguridad%20electr%C3%B3nica/camara.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Seguridad%20electr%C3%B3nica/seguridad.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Electromec%C3%A1nica/electromecanica.jpg');"></div>
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-bg-pattern"></div>
   <div class="hero-content">
@@ -363,7 +372,7 @@
         <div class="brand-logo"><img src="images/Brands/Grandstream_logo.png" alt="GrandStream" title="GrandStream" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo"><img src="images/Brands/Dahua_logo.png" alt="Dahua" title="Dahua" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo brand-logo--lg"><img src="images/Brands/systimax.png" alt="Systimax" title="Systimax" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Leyard_logo.png" alt="Leyard" title="Leyard" onerror="this.parentElement.style.display='none';"></div>
+        <div class="brand-logo"><img src="images/Brands/leyard_logo.jpg" alt="Leyard" title="Leyard" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo"><img src="images/Brands/Axis_logo.png" alt="Axis" title="Axis" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo"><img src="images/Brands/Alhua_logo.png" alt="Alhua" title="Alhua" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo brand-logo--lg"><img src="images/Brands/Hikvision.png" alt="Hikvision" title="Hikvision" onerror="this.parentElement.style.display='none';"></div>
@@ -498,7 +507,6 @@
     <div class="footer-brand">
       <a href="#inicio"><img src="images/logo-equant.svg" alt="EquantCR - Engineering &amp; IT Solutions" class="logo-img footer-logo-img"></a>
       <p class="footer-tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
-      <img src="images/Pyme.svg" alt="Empresa PYME" class="footer-pyme-img" onerror="this.style.display='none';">
     </div>
     <div class="footer-links-col">
       <h4>Servicios</h4>
@@ -518,6 +526,9 @@
       <a href="digitalSignage.html">Digital Signage</a>
       <a href="#nosotros"><strong>Acerca de nosotros</strong></a>
       <a href="#contacto"><strong>Contáctenos</strong></a>
+    </div>
+    <div class="footer-pyme-col">
+      <img src="images/Pyme.svg" alt="Empresa PYME" class="footer-pyme-img" onerror="this.style.display='none';">
     </div>
   </div>
   <div class="footer-bottom"><span>© <span id="footer-year"></span> EquantCR. Todos los derechos reservados.</span></div>
@@ -570,6 +581,23 @@
     var body = encodeURIComponent('Nombre: ' + name + '\nCorreo: ' + email + '\nServicio: ' + service + '\n\nMensaje:\n' + message);
     window.location.href = 'mailto:gherrera@equantcr.com?subject=' + subject + '&body=' + body;
   });
+
+  // Hero slideshow — solo en desktop
+  (function () {
+    var slides = document.querySelectorAll('.hero-slide');
+    if (!slides.length) return;
+    var idx = 0;
+    var DISPLAY_MS = 6500;  // tiempo visible por imagen
+    var FADE_OUT_MS = 700;  // cuánto esperar para que oscurezca antes de mostrar la siguiente
+
+    setInterval(function () {
+      slides[idx].classList.remove('is-active');
+      setTimeout(function () {
+        idx = (idx + 1) % slides.length;
+        slides[idx].classList.add('is-active');
+      }, FADE_OUT_MS);
+    }, DISPLAY_MS);
+  })();
 </script>
 </body>
 </html>
