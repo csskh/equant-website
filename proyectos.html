@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyectos — EquantCR</title>
+  <link rel="stylesheet" href="css/equant.css" />
+  <style>
+    .construction-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg2);
+      padding: 40px 24px;
+    }
+    .construction-card {
+      text-align: center;
+      max-width: 560px;
+    }
+    .construction-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(251,176,64,0.1);
+      border: 1px solid rgba(251,176,64,0.25);
+      border-radius: 50%;
+    }
+    .construction-icon svg {
+      width: 36px;
+      height: 36px;
+      color: var(--accent);
+    }
+    .construction-tag {
+      display: inline-block;
+      padding: 4px 14px;
+      background: rgba(251,176,64,0.12);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-radius: 20px;
+      border: 1px solid rgba(251,176,64,0.25);
+      margin-bottom: 24px;
+    }
+    .construction-title {
+      font-family: var(--font-head);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+    .construction-desc {
+      color: var(--text2);
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 36px;
+    }
+    .construction-divider {
+      width: 48px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      margin: 0 auto 36px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header" id="inicio">
+  <nav class="navbar navbar-solid">
+    <div class="nav-logo">
+      <a href="index.html"><img src="images/logo-equant.svg" alt="EquantCR" class="logo-img"></a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html#servicios" class="nav-link">Nuestros servicios</a>
+      <a href="proyectos.html" class="nav-link">Proyectos</a>
+      <a href="index.html#nosotros" class="nav-link">Acerca de nosotros</a>
+      <a href="index.html#contacto" class="nav-link nav-cta">Contáctenos</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="construction-section">
+  <div class="construction-card">
+    <div class="construction-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+        <path d="M2 17l10 5 10-5"/>
+        <path d="M2 12l10 5 10-5"/>
+      </svg>
+    </div>
+    <div class="construction-tag">Próximamente</div>
+    <h1 class="construction-title">Sección en construcción</h1>
+    <div class="construction-divider"></div>
+    <p class="construction-desc">
+      Estamos trabajando para traerte nuestro portafolio de proyectos.<br>
+      Pronto estará disponible.
+    </p>
+    <a href="index.html" class="btn-primary">Volver al inicio</a>
+  </div>
+</section>
+
+<script>
+  var hamburger = document.getElementById('hamburger');
+  var navLinks = document.querySelector('.nav-links');
+  hamburger.addEventListener('click', function () {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+</script>
+</body>
+</html>

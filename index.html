@@ -15,7 +15,7 @@
     </div>
     <div class="nav-links">
       <a href="#servicios" class="nav-link">Nuestros servicios</a>
-      <a href="/proyectos" class="nav-link">Proyectos</a>
+      <a href="proyectos.html" class="nav-link">Proyectos</a>
       <a href="#nosotros" class="nav-link">Acerca de nosotros</a>
       <a href="#contacto" class="nav-link nav-cta">Contáctenos</a>
     </div>
@@ -50,7 +50,7 @@
     </p>
     <div class="hero-actions">
       <a href="#servicios" class="btn-ghost">Servicios</a>
-      <a href="/proyectos" class="btn-primary">Proyectos</a>
+      <a href="proyectos.html" class="btn-primary">Proyectos</a>
     </div>
   </div>
 </section>
@@ -579,7 +579,7 @@
     }
     var subject = encodeURIComponent('Consulta: ' + service);
     var body = encodeURIComponent('Nombre: ' + name + '\nCorreo: ' + email + '\nServicio: ' + service + '\n\nMensaje:\n' + message);
-    window.location.href = 'mailto:gherrera@equantcr.com?subject=' + subject + '&body=' + body;
+    window.location.href = 'mailto:ventas@equantcr.com?cc=gherrera@equantcr.com&subject=' + subject + '&body=' + body;
   });
 
   // Hero slideshow — solo en desktop
@@ -587,7 +587,7 @@
     var slides = document.querySelectorAll('.hero-slide');
     if (!slides.length) return;
     var idx = 0;
-    var DISPLAY_MS = 6500;  // tiempo visible por imagen
+    var DISPLAY_MS = 5000;  // tiempo visible por imagen
     var FADE_OUT_MS = 700;  // cuánto esperar para que oscurezca antes de mostrar la siguiente
 
     setInterval(function () {
