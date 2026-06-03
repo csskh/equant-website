@@ -11,12 +11,19 @@
 <nav class="navbar navbar-solid">
   <div class="nav-logo"><a href="index.html"><img src="images/logo-equant.svg" alt="EquantCR" class="logo-img"></a></div>
   <div class="nav-links">
-    <a href="index.html#servicios" class="nav-link">Nuestros servicios</a>
-    <a href="/proyectos" class="nav-link">Proyectos</a>
-    <a href="index.html#nosotros" class="nav-link">Acerca de nosotros</a>
-    <a href="index.html#contacto" class="nav-link nav-cta">Contáctenos</a>
+    <a href="index.html#servicios" class="nav-link" data-i18n="nav.services">Nuestros servicios</a>
+    <a href="proyectos.html" class="nav-link" data-i18n="nav.projects">Proyectos</a>
+    <a href="index.html#nosotros" class="nav-link" data-i18n="nav.about">Acerca de nosotros</a>
+    <a href="index.html#contacto" class="nav-link nav-cta" data-i18n="nav.contact">Contáctenos</a>
   </div>
-  <button class="hamburger"><span></span><span></span><span></span></button>
+  <div class="nav-end">
+    <div class="lang-toggle" id="lang-toggle">
+      <button class="lang-btn lang-btn--active" data-lang="es">ES</button>
+      <span class="lang-sep">|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
 </nav>
 
 <div class="svc-page-body">
@@ -25,13 +32,13 @@
     <div class="svc-fullbg-overlay" style="opacity:0.55;"></div>
 
     <section class="svc-fullbg-hero">
-      <a href="index.html#servicios" class="back-link">← Volver a Servicios</a>
-      <div class="hero-tag">Protección 24/7</div>
-      <h1 class="hero-title" tabindex="-1">SEGURIDAD <span class="highlight">ELECTRÓNICA</span></h1>
-      <p class="hero-desc">Proteja sus activos las 24 horas, los 7 días de la semana, con sistemas inteligentes de video vigilancia, control de accesos y detección temprana de amenazas. Diseñamos soluciones a medida que garantizan la tranquilidad de su hogar o empresa con tecnología de vanguardia.</p>
+      <a href="index.html#servicios" class="back-link" data-i18n="common.back">← Volver a Servicios</a>
+      <div class="hero-tag" data-i18n="security.hero.tag">Protección 24/7</div>
+      <h1 class="hero-title" tabindex="-1" data-i18n-html="security.hero.title">SEGURIDAD <span class="highlight">ELECTRÓNICA</span></h1>
+      <p class="hero-desc" data-i18n="security.hero.desc">Proteja sus activos las 24 horas, los 7 días de la semana, con sistemas inteligentes de video vigilancia, control de accesos y detección temprana de amenazas. Diseñamos soluciones a medida que garantizan la tranquilidad de su hogar o empresa con tecnología de vanguardia.</p>
       <div class="hero-actions">
-        <a href="index.html#contacto" class="btn-primary">Solicitar propuesta →</a>
-        <a href="index.html#servicios" class="btn-ghost">Ver todos los servicios</a>
+        <a href="index.html#contacto" class="btn-primary" data-i18n="common.request.proposal">Solicitar propuesta →</a>
+        <a href="index.html#servicios" class="btn-ghost" data-i18n="common.view.services">Ver todos los servicios</a>
       </div>
     </section>
 
@@ -40,20 +47,20 @@
 
         <div class="dc-banner-card">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Video Vigilancia IP</h3>
-            <p class="dc-banner-desc">Obtenga una supervisión total con sistemas de red de última generación. Nuestras soluciones de video IP ofrecen nitidez superior, almacenamiento eficiente local y en la nube, y la posibilidad de monitorear sus espacios en tiempo real desde cualquier dispositivo móvil.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="security.c1.title">Video Vigilancia IP</h3>
+            <p class="dc-banner-desc" data-i18n="security.c1.d1">Obtenga una supervisión total con sistemas de red de última generación. Nuestras soluciones de video IP ofrecen nitidez superior, almacenamiento eficiente local y en la nube, y la posibilidad de monitorear sus espacios en tiempo real desde cualquier dispositivo móvil.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
-            <img src="images/segelectronica/videovigilancia.jpg" alt="Video Vigilancia IP" onerror="this.parentElement.style.display='none';">
+            <img src="images/segelectronica/camaras.jpg" alt="Video Vigilancia IP" onerror="this.parentElement.style.display='none';">
           </div>
         </div>
 
         <div class="dc-banner-card dc-banner-card--reverse">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Control de Accesos</h3>
-            <p class="dc-banner-desc">Gestione y restrinja de forma inteligente el ingreso a áreas sensibles. Implementamos soluciones biométricas, tarjetas de proximidad y cerraduras inteligentes que se integran perfectamente a la infraestructura de su empresa.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="security.c2.title">Control de Accesos</h3>
+            <p class="dc-banner-desc" data-i18n="security.c2.d1">Gestione y restrinja de forma inteligente el ingreso a áreas sensibles. Implementamos soluciones biométricas, tarjetas de proximidad y cerraduras inteligentes que se integran perfectamente a la infraestructura de su empresa.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/segelectronica/accesos.jpg" alt="Control de Accesos" onerror="this.parentElement.style.display='none';">
@@ -62,9 +69,9 @@
 
         <div class="dc-banner-card">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Sistemas de Detección de Incendio</h3>
-            <p class="dc-banner-desc">Detección temprana y confiable ante cualquier amenaza de fuego. Instalamos detectores de humo, calor y CO conectados a centrales de monitoreo profesional, garantizando una respuesta inmediata para salvaguardar vidas y bienes materiales.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="security.c3.title">Sistemas de Detección de Incendio</h3>
+            <p class="dc-banner-desc" data-i18n="security.c3.d1">Detección temprana y confiable ante cualquier amenaza de fuego. Instalamos detectores de humo, calor y CO conectados a centrales de monitoreo profesional, garantizando una respuesta inmediata para salvaguardar vidas y bienes materiales.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/segelectronica/incendio.jpg" alt="Detección de Incendio" onerror="this.parentElement.style.display='none';">
@@ -73,9 +80,9 @@
 
         <div class="dc-banner-card dc-banner-card--reverse">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Sistemas contra Intrusión</h3>
-            <p class="dc-banner-desc">Anticípese a cualquier riesgo con nuestras alarmas inteligentes. Contamos con sensores de movimiento de alta precisión, seguridad perimetral y monitoreo preventivo diseñado para detectar y disuadir cualquier intento de acceso no autorizado.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="security.c4.title">Sistemas contra Intrusión</h3>
+            <p class="dc-banner-desc" data-i18n="security.c4.d1">Anticípese a cualquier riesgo con nuestras alarmas inteligentes. Contamos con sensores de movimiento de alta precisión, seguridad perimetral y monitoreo preventivo diseñado para detectar y disuadir cualquier intento de acceso no autorizado.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/segelectronica/intrusion.jpg" alt="Sistemas contra Intrusión" onerror="this.parentElement.style.display='none';">
@@ -84,9 +91,9 @@
 
         <div class="dc-banner-card">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Sistemas de Audio y Video</h3>
-            <p class="dc-banner-desc">Optimice sus espacios con soluciones audiovisuales de calidad superior. Somos expertos en el diseño e integración de salas de conferencias, sistemas de megafonía, videowalls y plataformas multimedia.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="security.c5.title">Sistemas de Audio y Video</h3>
+            <p class="dc-banner-desc" data-i18n="security.c5.d1">Optimice sus espacios con soluciones audiovisuales de calidad superior. Somos expertos en el diseño e integración de salas de conferencias, sistemas de megafonía, videowalls y plataformas multimedia.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/segelectronica/audiovideo.jpg" alt="Audio y Video" onerror="this.parentElement.style.display='none';">
@@ -101,29 +108,29 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="index.html"><img src="images/logo-equant.svg" alt="EquantCR - Engineering &amp; IT Solutions" class="logo-img footer-logo-img"></a>
-      <p class="footer-tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
+      <p class="footer-tagline" data-i18n="footer.tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
     </div>
     <div class="footer-links-col">
-      <h4>Servicios</h4>
-      <a href="datacenters.html">Datacenters</a>
-      <a href="networking.html">Networking</a>
-      <a href="switching.html">Switching &amp; Routing</a>
-      <a href="respaldoDeEnergia.html">Respaldo de Energía</a>
-      <a href="telefoniaVoip.html">Telefonía VoIP</a>
-      <a href="sistemasDeEnfriamiento.html">Sistemas de Enfriamiento</a>
+      <h4 data-i18n="footer.services">Servicios</h4>
+      <a href="datacenters.html" data-i18n="svc.name.dc">Datacenters</a>
+      <a href="networking.html" data-i18n="svc.name.net">Networking</a>
+      <a href="switching.html" data-i18n="svc.name.sw">Switching &amp; Routing</a>
+      <a href="respaldoDeEnergia.html" data-i18n="svc.name.energy">Respaldo de Energía</a>
+      <a href="telefoniaVoip.html" data-i18n="svc.name.voip">Telefonía VoIP</a>
+      <a href="sistemasDeEnfriamiento.html" data-i18n="svc.name.cooling">Sistemas de Enfriamiento</a>
     </div>
     <div class="footer-links-col">
-      <h4>Más servicios</h4>
-      <a href="seguridadElectronica.html">Seguridad Electrónica</a>
-      <a href="electromecanica.html">Electromecánica</a>
-      <a href="automatizacion.html">Automatización</a>
-      <a href="enlaces.html">Enlaces Inalámbricos</a>
-      <a href="digitalSignage.html">Digital Signage</a>
-      <a href="index.html#nosotros"><strong>Acerca de nosotros</strong></a>
-      <a href="index.html#contacto"><strong>Contáctenos</strong></a>
+      <h4 data-i18n="footer.more.services">Más servicios</h4>
+      <a href="seguridadElectronica.html" data-i18n="svc.name.security">Seguridad Electrónica</a>
+      <a href="electromecanica.html" data-i18n="svc.name.electro">Electromecánica</a>
+      <a href="automatizacion.html" data-i18n="svc.name.auto">Automatización</a>
+      <a href="enlaces.html" data-i18n="svc.name.links">Enlaces Inalámbricos</a>
+      <a href="digitalSignage.html" data-i18n="svc.name.signage">Digital Signage</a>
+      <a href="index.html#nosotros" data-i18n-html="footer.about"><strong>Acerca de nosotros</strong></a>
+      <a href="index.html#contacto" data-i18n-html="footer.contact"><strong>Contáctenos</strong></a>
     </div>
   </div>
-  <div class="footer-bottom"><span>© 2026 EquantCR. Todos los derechos reservados.</span></div>
+  <div class="footer-bottom"><span>© 2026 EquantCR. <span data-i18n="footer.rights">Todos los derechos reservados.</span></span></div>
 </footer>
 
 <a class="fab-whatsapp" href="https://wa.me/50688545445" target="_blank" rel="noopener noreferrer" title="Contáctenos por WhatsApp">
@@ -132,10 +139,6 @@
 <button class="back-to-top" title="Volver al inicio" aria-label="Volver al inicio">
   <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </button>
-<script>
-  var btt = document.querySelector('.back-to-top');
-  window.addEventListener('scroll', function(){ btt.classList.toggle('visible', window.scrollY > 400); });
-  btt.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
-</script>
+<script src="js/i18n.js"></script>
 </body>
 </html>

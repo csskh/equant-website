@@ -14,12 +14,19 @@
       <a href="#inicio"><img src="images/logo-equant.svg" alt="EquantCR" class="logo-img"></a>
     </div>
     <div class="nav-links">
-      <a href="#servicios" class="nav-link">Nuestros servicios</a>
-      <a href="proyectos.html" class="nav-link">Proyectos</a>
-      <a href="#nosotros" class="nav-link">Acerca de nosotros</a>
-      <a href="#contacto" class="nav-link nav-cta">Contáctenos</a>
+      <a href="#servicios" class="nav-link" data-i18n="nav.services">Nuestros servicios</a>
+      <a href="proyectos.html" class="nav-link" data-i18n="nav.projects">Proyectos</a>
+      <a href="#nosotros" class="nav-link" data-i18n="nav.about">Acerca de nosotros</a>
+      <a href="#contacto" class="nav-link nav-cta" data-i18n="nav.contact">Contáctenos</a>
     </div>
-    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <div class="nav-end">
+      <div class="lang-toggle" id="lang-toggle">
+        <button class="lang-btn lang-btn--active" data-lang="es">ES</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
   </nav>
 </header>
 
@@ -29,28 +36,28 @@
 
   <!-- Desktop: slideshow automático de imágenes -->
   <div class="hero-slideshow" aria-hidden="true">
-    <div class="hero-slide is-active" style="background-image: url('images/backgrounds/Pantallas%20digitales/digital%20signage.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('images/backgrounds/Networking/fibra.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('images/backgrounds/Networking/redesutp.jpg');"></div>
+    <div class="hero-slide is-active" style="background-image: url('images/backgrounds/Networking/fibra.jpg');"></div>
     <div class="hero-slide" style="background-image: url('images/backgrounds/Switching%20y%20routing/cableado.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Networking/redesutp.jpg');"></div>
     <div class="hero-slide" style="background-image: url('images/backgrounds/Seguridad%20electr%C3%B3nica/camara.jpg');"></div>
     <div class="hero-slide" style="background-image: url('images/backgrounds/Seguridad%20electr%C3%B3nica/seguridad.jpg');"></div>
     <div class="hero-slide" style="background-image: url('images/backgrounds/Electromec%C3%A1nica/electromecanica.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('images/backgrounds/Pantallas%20digitales/digital%20signage.jpg');"></div>
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-bg-pattern"></div>
   <div class="hero-content">
-    <div class="hero-tag">Ingeniería &amp; Soluciones de TI</div>
-    <h1 class="hero-title" tabindex="-1">
+    <div class="hero-tag" data-i18n="hero.tag">Ingeniería &amp; Soluciones de TI</div>
+    <h1 class="hero-title" tabindex="-1" data-i18n-html="hero.title">
       Expertos en <span class="highlight">Infraestructura Tecnológica <br>e Ingeniería Integrada</span>
     </h1>
-    <p class="hero-desc">
+    <p class="hero-desc" data-i18n="hero.desc">
       Ofreciendo Soluciones Integradas en Tecnologías de la Información,
       Seguridad Electrónica, Telecomunicaciones, Electromecánica y Pantallas Digitales Inteligentes.
     </p>
     <div class="hero-actions">
-      <a href="#servicios" class="btn-ghost">Servicios</a>
-      <a href="proyectos.html" class="btn-primary">Proyectos</a>
+      <a href="#servicios" class="btn-ghost" data-i18n="hero.btn.services">Servicios</a>
+      <a href="proyectos.html" class="btn-primary" data-i18n="hero.btn.projects">Proyectos</a>
     </div>
   </div>
 </section>
@@ -117,23 +124,23 @@
         </div>
         <div class="about-badge">
           <div class="badge-num">20+</div>
-          <div class="badge-text">Años en el mercado</div>
+          <div class="badge-text" data-i18n="about.badge">Años en el mercado</div>
         </div>
       </div>
       <div class="about-decoration"></div>
     </div>
     <div class="about-content">
-      <div class="section-tag">Quiénes somos</div>
-      <h2 class="section-title">Empresa pionera en <span class="highlight">Telecomunicaciones y Electromecánica</span></h2>
-      <p class="about-text">Somos una empresa pionera, con presencia en la industria de las <strong>Telecomunicaciones y Electromecánica</strong> con más de 20 años de experiencia en brindar soluciones Integrales al mercado costarricense.</p>
-      <p class="about-text">Desde su fundación se ha convertido en una empresa líder en el diseño, certificación, auditoría y operación de proyectos tanto de misión crítica, como constructivos.</p>
-      <p class="about-text">La <strong class="highlight">Excelencia y la Innovación</strong> forman parte inherente de todos y cada uno de nuestros servicios. De esta forma garantizamos a nuestros clientes proyectos diseñados y construidos bajo los más altos estándares.</p>
+      <div class="section-tag" data-i18n="about.tag">Quiénes somos</div>
+      <h2 class="section-title" data-i18n-html="about.title">Empresa pionera en <span class="highlight">Telecomunicaciones y Electromecánica</span></h2>
+      <p class="about-text" data-i18n-html="about.text1">Somos una empresa pionera, con presencia en la industria de las <strong>Telecomunicaciones y Electromecánica</strong> con más de 20 años de experiencia en brindar soluciones Integrales al mercado costarricense.</p>
+      <p class="about-text" data-i18n="about.text2">Desde su fundación se ha convertido en una empresa líder en el diseño, certificación, auditoría y operación de proyectos tanto de misión crítica, como constructivos.</p>
+      <p class="about-text" data-i18n-html="about.text3">La <strong class="highlight">Excelencia y la Innovación</strong> forman parte inherente de todos y cada uno de nuestros servicios. De esta forma garantizamos a nuestros clientes proyectos diseñados y construidos bajo los más altos estándares.</p>
       <div class="values-grid">
-        <div class="value-chip"><span class="value-dot">◆</span> Excelencia profesional</div>
-        <div class="value-chip"><span class="value-dot">◆</span> Trabajo en equipo</div>
-        <div class="value-chip"><span class="value-dot">◆</span> Adaptabilidad al cambio</div>
-        <div class="value-chip"><span class="value-dot">◆</span> Creatividad e innovación</div>
-        <div class="value-chip"><span class="value-dot">◆</span> Compromiso con el cliente</div>
+        <div class="value-chip"><span class="value-dot">◆</span> <span data-i18n="about.value1">Excelencia profesional</span></div>
+        <div class="value-chip"><span class="value-dot">◆</span> <span data-i18n="about.value2">Trabajo en equipo</span></div>
+        <div class="value-chip"><span class="value-dot">◆</span> <span data-i18n="about.value3">Adaptabilidad al cambio</span></div>
+        <div class="value-chip"><span class="value-dot">◆</span> <span data-i18n="about.value4">Creatividad e innovación</span></div>
+        <div class="value-chip"><span class="value-dot">◆</span> <span data-i18n="about.value5">Compromiso con el cliente</span></div>
       </div>
     </div>
   </div>
@@ -146,8 +153,8 @@
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="18" stroke="#FBB040" stroke-width="1.5"></circle><path d="M12 20 L20 12 L28 20 L20 28 Z" stroke="#FBB040" stroke-width="1.5" fill="none"></path><circle cx="20" cy="20" r="4" fill="#FBB040"></circle></svg>
         </div>
       </div>
-      <h3>MISIÓN</h3>
-      <p>Contribuir a consolidar proyectos de tecnología en comunicación con servicios de calidad y soluciones innovadoras.</p>
+      <h3 data-i18n="mvv.mission.title">MISIÓN</h3>
+      <p data-i18n="mvv.mission.text">Contribuir a consolidar proyectos de tecnología en comunicación con servicios de calidad y soluciones innovadoras.</p>
     </div>
     <div class="mvv-card">
       <div class="mvv-icon">
@@ -156,8 +163,8 @@
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="18" stroke="#FBB040" stroke-width="1.5"></circle><circle cx="20" cy="20" r="10" stroke="#FBB040" stroke-width="1"></circle><circle cx="20" cy="20" r="4" fill="#FBB040"></circle><line x1="20" y1="2" x2="20" y2="8" stroke="#FBB040" stroke-width="1.5"></line><line x1="20" y1="32" x2="20" y2="38" stroke="#FBB040" stroke-width="1.5"></line><line x1="2" y1="20" x2="8" y2="20" stroke="#FBB040" stroke-width="1.5"></line><line x1="32" y1="20" x2="38" y2="20" stroke="#FBB040" stroke-width="1.5"></line></svg>
         </div>
       </div>
-      <h3>VISIÓN</h3>
-      <p>Ser líder en la integración de soluciones tecnológicas a través de un enfoque centrado donde el cliente es prioridad. Ser una empresa de vanguardia que brinde soluciones innovadoras en el área de las telecomunicaciones y electromecánica, comprometidos con el cumplimiento de los requerimientos de los clientes e integrando calidad en nuestros servicios y productos.</p>
+      <h3 data-i18n="mvv.vision.title">VISIÓN</h3>
+      <p data-i18n="mvv.vision.text">Ser líder en la integración de soluciones tecnológicas a través de un enfoque centrado donde el cliente es prioridad. Ser una empresa de vanguardia que brinde soluciones innovadoras en el área de las telecomunicaciones y electromecánica, comprometidos con el cumplimiento de los requerimientos de los clientes e integrando calidad en nuestros servicios y productos.</p>
     </div>
     <div class="mvv-card">
       <div class="mvv-icon">
@@ -166,8 +173,8 @@
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="20,4 25,15 38,15 28,23 32,36 20,28 8,36 12,23 2,15 15,15" stroke="#FBB040" stroke-width="1.5" fill="none"></polygon><circle cx="20" cy="20" r="4" fill="#FBB040"></circle></svg>
         </div>
       </div>
-      <h3>VALORES</h3>
-      <p>Excelencia profesional · Trabajo en equipo · Adaptabilidad al cambio · Creatividad e innovación · Compromiso con el cliente.</p>
+      <h3 data-i18n="mvv.values.title">VALORES</h3>
+      <p data-i18n="mvv.values.text">Excelencia profesional · Trabajo en equipo · Adaptabilidad al cambio · Creatividad e innovación · Compromiso con el cliente.</p>
     </div>
   </div>
 </section>
@@ -176,31 +183,31 @@
 <section class="industries-section" id="industrias">
   <div class="industries-inner">
     <div class="section-header">
-      <div class="section-tag">Sectores que atendemos</div>
-      <h2 class="section-title">Industrias donde <span class="highlight">generamos impacto</span></h2>
-      <p class="section-desc">Llevamos soluciones tecnológicas de alto nivel a los sectores más exigentes de Costa Rica y la región.</p>
+      <div class="section-tag" data-i18n="industries.tag">Sectores que atendemos</div>
+      <h2 class="section-title" data-i18n-html="industries.title">Industrias donde <span class="highlight">generamos impacto</span></h2>
+      <p class="section-desc" data-i18n="industries.desc">Llevamos soluciones tecnológicas de alto nivel a los sectores más exigentes de Costa Rica y la región.</p>
     </div>
     <div class="industries-grid">
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Aeropuertos.png" alt="Aeropuertos — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Aeropuertos</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/transporte.png" alt="Transporte — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Transporte</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Educacion.png" alt="Educación — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Educación</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Supermercados.png" alt="Supermercados — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Supermercados</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/corporativo.png" alt="Corporativo — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Corporativo</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Financiero.png" alt="Financiero — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Financiero</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/salud.png" alt="Salud — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Salud</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/restaurantes.png" alt="Restaurantes — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Restaurantes</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/industrial.png" alt="Industrial — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Industrial</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/gobierno.png" alt="Gobierno — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Gobierno</h3></div></div></div>
-      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/hoteleria.png" alt="Hotelería — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name">Hotelería</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Aeropuertos.png" alt="Aeropuertos — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.airports">Aeropuertos</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/transporte.png" alt="Transporte — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.transport">Transporte</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Educacion.png" alt="Educación — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.education">Educación</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Supermercados.png" alt="Supermercados — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.supermarkets">Supermercados</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/corporativo.png" alt="Corporativo — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.corporate">Corporativo</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/Financiero.png" alt="Financiero — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.financial">Financiero</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/salud.png" alt="Salud — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.health">Salud</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/restaurantes.png" alt="Restaurantes — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.restaurants">Restaurantes</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/industrial.png" alt="Industrial — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.industrial">Industrial</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/gobierno.png" alt="Gobierno — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.government">Gobierno</h3></div></div></div>
+      <div class="industry-card"><div class="industry-img-wrap"><img src="images/industries/hoteleria.png" alt="Hotelería — EquantCR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="industry-img-placeholder" style="display:none;"><span> </span></div><div class="industry-overlay"><div class="industry-icon"> </div><h3 class="industry-name" data-i18n="industry.hospitality">Hotelería</h3></div></div></div>
     </div>
   </div>
 </section>
 
 <section class="services-section" id="servicios">
   <div class="section-header">
-    <div class="section-tag">Lo que ofrecemos</div>
-    <h2 class="section-title">Nuestros <span class="highlight">Servicios</span></h2>
-    <p class="section-desc">Soluciones integrales en telecomunicaciones, infraestructura de TI y electromecánica para todos los sectores.</p>
+    <div class="section-tag" data-i18n="services.tag">Lo que ofrecemos</div>
+    <h2 class="section-title" data-i18n-html="services.title">Nuestros <span class="highlight">Servicios</span></h2>
+    <p class="section-desc" data-i18n="services.desc">Soluciones integrales en telecomunicaciones, infraestructura de TI y electromecánica para todos los sectores.</p>
   </div>
   <div class="services-grid">
 
@@ -211,8 +218,8 @@
           <a href="datacenters.html" class="service-title-link"><h3 class="service-title">DATACENTERS</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/data-center-yellow.svg" alt="DATACENTERS" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Canalización para cables de comunicación</li><li><span class="bullet">▸</span> Piso Falso</li><li><span class="bullet">▸</span> Cooling Systems</li><li><span class="bullet">▸</span> Monitoreo y Accesos</li></ul>
-        <a href="datacenters.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.dc.li1">Canalización para cables de comunicación</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.dc.li2">Piso Falso</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.dc.li3">Cooling Systems</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.dc.li4">Monitoreo y Accesos</span></li></ul>
+        <a href="datacenters.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -224,8 +231,8 @@
           <a href="networking.html" class="service-title-link"><h3 class="service-title">NETWORKING</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/connection-yellow.svg" alt="NETWORKING" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Cableado Estructurado Cat6/Cat7</li><li><span class="bullet">▸</span> Fibra Óptica Monomodo &amp; Multimodo</li><li><span class="bullet">▸</span> Telecom Grounding Systems</li><li><span class="bullet">▸</span> Canalización de Cable</li></ul>
-        <a href="networking.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.net.li1">Cableado Estructurado Cat6/Cat7</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.net.li2">Fibra Óptica Monomodo &amp; Multimodo</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.net.li3">Telecom Grounding Systems</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.net.li4">Canalización de Cable</span></li></ul>
+        <a href="networking.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -237,8 +244,8 @@
           <a href="switching.html" class="service-title-link"><h3 class="service-title">SWITCHING &amp; ROUTING</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/server-yellow.svg" alt="SWITCHING &amp; ROUTING" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Diseño e Implementación de Soluciones TI</li><li><span class="bullet">▸</span> Switches, Routers y Access Points</li><li><span class="bullet">▸</span> Firewalls</li><li><span class="bullet">▸</span> Certificaciones</li></ul>
-        <a href="switching.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.sw.li1">Diseño e Implementación de Soluciones TI</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.sw.li2">Switches, Routers y Access Points</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.sw.li3">Firewalls</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.sw.li4">Certificaciones</span></li></ul>
+        <a href="switching.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -247,11 +254,11 @@
       <a href="respaldoDeEnergia.html" class="service-card-image-link"><div class="service-card-image"><img src="images/respenergia/card.jpeg" alt="RESPALDO DE ENERGÍA" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/electrical-panel-yellow.svg" alt="RESPALDO DE ENERGÍA" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="respaldoDeEnergia.html" class="service-title-link"><h3 class="service-title">RESPALDO DE ENERGÍA</h3></a>
+          <a href="respaldoDeEnergia.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.energy">RESPALDO DE ENERGÍA</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/electrical-panel-yellow.svg" alt="RESPALDO DE ENERGÍA" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> UPS — Sistemas de Energía Ininterrumpida</li><li><span class="bullet">▸</span> Genset — Grupos Electrógenos</li><li><span class="bullet">▸</span> Paneles Solares</li></ul>
-        <a href="respaldoDeEnergia.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.energy.li1">UPS — Sistemas de Energía Ininterrumpida</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.energy.li2">Genset — Grupos Electrógenos</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.energy.li3">Paneles Solares</span></li></ul>
+        <a href="respaldoDeEnergia.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -260,11 +267,11 @@
       <a href="telefoniaVoip.html" class="service-card-image-link"><div class="service-card-image"><img src="images/voip/card.jpeg" alt="TELEFONÍA VOIP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/telephone-yellow.svg" alt="TELEFONÍA VOIP" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="telefoniaVoip.html" class="service-title-link"><h3 class="service-title">TELEFONÍA VOIP</h3></a>
+          <a href="telefoniaVoip.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.voip">TELEFONÍA VOIP</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/telephone-yellow.svg" alt="TELEFONÍA VOIP" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Comunicaciones Unificadas</li><li><span class="bullet">▸</span> Centrales telefónicas IP</li><li><span class="bullet">▸</span> Videoconferencia</li><li><span class="bullet">▸</span> Soluciones de colaboración empresarial</li></ul>
-        <a href="telefoniaVoip.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.voip.li1">Comunicaciones Unificadas</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.voip.li2">Centrales telefónicas IP</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.voip.li3">Videoconferencia</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.voip.li4">Soluciones de colaboración empresarial</span></li></ul>
+        <a href="telefoniaVoip.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -273,11 +280,11 @@
       <a href="sistemasDeEnfriamiento.html" class="service-card-image-link"><div class="service-card-image"><img src="images/enfriamiento/card.png" alt="SISTEMAS DE ENFRIAMIENTO" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/air-conditioner-yellow.svg" alt="SISTEMAS DE ENFRIAMIENTO" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="sistemasDeEnfriamiento.html" class="service-title-link"><h3 class="service-title">SISTEMAS DE ENFRIAMIENTO</h3></a>
+          <a href="sistemasDeEnfriamiento.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.cooling">SISTEMAS DE ENFRIAMIENTO</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/air-conditioner-yellow.svg" alt="SISTEMAS DE ENFRIAMIENTO" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Unidades Split</li><li><span class="bullet">▸</span> Unidades Piso Cielo</li><li><span class="bullet">▸</span> Unidades Centrales de Ducto</li><li><span class="bullet">▸</span> AA de Confort y Precisión</li></ul>
-        <a href="sistemasDeEnfriamiento.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.cooling.li1">Unidades Split</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.cooling.li2">Unidades Piso Cielo</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.cooling.li3">Unidades Centrales de Ducto</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.cooling.li4">AA de Confort y Precisión</span></li></ul>
+        <a href="sistemasDeEnfriamiento.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -286,11 +293,11 @@
       <a href="seguridadElectronica.html" class="service-card-image-link"><div class="service-card-image"><img src="images/segelectronica/card.jpg" alt="SEGURIDAD ELECTRÓNICA" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/high-speed-dome-camera-yellow.svg" alt="SEGURIDAD ELECTRÓNICA" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="seguridadElectronica.html" class="service-title-link"><h3 class="service-title">SEGURIDAD ELECTRÓNICA</h3></a>
+          <a href="seguridadElectronica.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.security">SEGURIDAD ELECTRÓNICA</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/high-speed-dome-camera-yellow.svg" alt="SEGURIDAD ELECTRÓNICA" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Video Vigilancia IP</li><li><span class="bullet">▸</span> Control de Accesos</li><li><span class="bullet">▸</span> Detección de Incendio</li><li><span class="bullet">▸</span> Sistemas contra Intrusión</li></ul>
-        <a href="seguridadElectronica.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.security.li1">Video Vigilancia IP</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.security.li2">Control de Accesos</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.security.li3">Detección de Incendio</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.security.li4">Sistemas contra Intrusión</span></li></ul>
+        <a href="seguridadElectronica.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -299,11 +306,11 @@
       <a href="electromecanica.html" class="service-card-image-link"><div class="service-card-image"><img src="images/electromecanica/card.jpg" alt="ELECTROMECÁNICA" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/transformer-yellow.svg" alt="ELECTROMECÁNICA" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="electromecanica.html" class="service-title-link"><h3 class="service-title">ELECTROMECÁNICA</h3></a>
+          <a href="electromecanica.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.electro">ELECTROMECÁNICA</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/transformer-yellow.svg" alt="ELECTROMECÁNICA" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Protecciones Eléctricas</li><li><span class="bullet">▸</span> Pararrayos tipos varios</li><li><span class="bullet">▸</span> Malla de tierras</li><li><span class="bullet">▸</span> Soldadura exotérmica</li></ul>
-        <a href="electromecanica.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.elec.li1">Protecciones Eléctricas</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.elec.li2">Pararrayos tipos varios</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.elec.li3">Malla de tierras</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.elec.li4">Soldadura exotérmica</span></li></ul>
+        <a href="electromecanica.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -312,11 +319,11 @@
       <a href="automatizacion.html" class="service-card-image-link"><div class="service-card-image"><img src="images/automatizacion/card.jpg" alt="AUTOMATIZACIÓN" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/automation-yellow.svg" alt="AUTOMATIZACIÓN" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="automatizacion.html" class="service-title-link"><h3 class="service-title">AUTOMATIZACIÓN</h3></a>
+          <a href="automatizacion.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.auto">AUTOMATIZACIÓN</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/automation-yellow.svg" alt="AUTOMATIZACIÓN" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Automatización Industrial</li><li><span class="bullet">▸</span> Domótica / Hogar Inteligente</li></ul>
-        <a href="automatizacion.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.auto.li1">Automatización Industrial</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.auto.li2">Domótica / Hogar Inteligente</span></li></ul>
+        <a href="automatizacion.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -325,11 +332,11 @@
       <a href="enlaces.html" class="service-card-image-link"><div class="service-card-image"><img src="images/enlaces/card.jpg" alt="ENLACES" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="service-card-image-placeholder" style="display:none;"><div class="service-icon"><img src="images/icons/antenna-yellow.svg" alt="ENLACES" class="service-icon-img"></div></div></div></a>
       <div class="service-card-body">
         <div class="service-card-top" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
-          <a href="enlaces.html" class="service-title-link"><h3 class="service-title">ENLACES INALÁMBRICOS</h3></a>
+          <a href="enlaces.html" class="service-title-link"><h3 class="service-title" data-i18n="svc.name.links">ENLACES INALÁMBRICOS</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><img src="images/icons/antenna-yellow.svg" alt="ENLACES" class="service-icon-img"></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> Enlaces Inalámbricos Punto a Punto</li><li><span class="bullet">▸</span> Sistemas Multipunto</li></ul>
-        <a href="enlaces.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.links.li1">Enlaces Inalámbricos Punto a Punto</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.links.li2">Sistemas Multipunto</span></li></ul>
+        <a href="enlaces.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -341,8 +348,8 @@
           <a href="digitalSignage.html" class="service-title-link"><h3 class="service-title">DIGITAL SIGNAGE</h3></a>
           <div class="service-icon" style="width:28px;height:28px;flex-shrink:0;"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="6" width="34" height="22" rx="2" stroke="#FBB040" stroke-width="1.5"></rect><line x1="20" y1="28" x2="20" y2="34" stroke="#FBB040" stroke-width="1.5"></line><line x1="13" y1="34" x2="27" y2="34" stroke="#FBB040" stroke-width="1.5"></line><rect x="7" y="10" width="10" height="7" rx="1" fill="#FBB040" opacity="0.3" stroke="#FBB040" stroke-width="1"></rect><rect x="20" y="10" width="16" height="3" rx="1" fill="#FBB040" opacity="0.5"></rect><rect x="20" y="15" width="10" height="2" rx="1" fill="#FBB040" opacity="0.3"></rect></svg></div>
         </div>
-        <ul class="service-list"><li><span class="bullet">▸</span> VideoWall y Pantallas Gigantes</li><li><span class="bullet">▸</span> Pantallas Interactivas y Kioscos</li><li><span class="bullet">▸</span> Automatización de Salas</li><li><span class="bullet">▸</span> Publicidad Digital</li></ul>
-        <a href="digitalSignage.html" class="service-card-btn">Ver más →</a>
+        <ul class="service-list"><li><span class="bullet">▸</span> <span data-i18n="svc.signage.li1">VideoWall y Pantallas Gigantes</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.signage.li2">Pantallas Interactivas y Kioscos</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.signage.li3">Automatización de Salas</span></li><li><span class="bullet">▸</span> <span data-i18n="svc.signage.li4">Publicidad Digital</span></li></ul>
+        <a href="digitalSignage.html" class="service-card-btn" data-i18n="services.cta">Ver más →</a>
       </div>
       <div class="service-card-glow"></div>
     </div>
@@ -353,9 +360,9 @@
 <section class="brands-section" id="marcas">
   <div class="brands-inner">
     <div class="section-header">
-      <div class="section-tag">Tecnología de vanguardia</div>
-      <h2 class="section-title">Marcas <span class="highlight">Representadas</span></h2>
-      <p class="section-desc">Trabajamos con los fabricantes líderes a nivel mundial para garantizar soluciones de la más alta calidad.</p>
+      <div class="section-tag" data-i18n="brands.tag">Tecnología de vanguardia</div>
+      <h2 class="section-title" data-i18n-html="brands.title">Marcas <span class="highlight">Representadas</span></h2>
+      <p class="section-desc" data-i18n="brands.desc">Trabajamos con los fabricantes líderes a nivel mundial para garantizar soluciones de la más alta calidad.</p>
     </div>
     <div class="brands-track-wrapper">
       <div class="brands-fade brands-fade--left"></div>
@@ -381,27 +388,6 @@
         <div class="brand-logo"><img src="images/Brands/Avaya.png" alt="Avaya" title="Avaya" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo"><img src="images/Brands/Legrand.png" alt="Legrand" title="Legrand" onerror="this.parentElement.style.display='none';"></div>
         <div class="brand-logo brand-logo--lg"><img src="images/Brands/paradox.png" alt="Paradox" title="Paradox" onerror="this.parentElement.style.display='none';"></div>
-        <!-- Duplicate for seamless loop -->
-        <div class="brand-logo"><img src="images/Brands/Cisco_logo.png" alt="Cisco" title="Cisco" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Fortinet_logo.png" alt="Fortinet" title="Fortinet" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Ubiquiti_logo.png" alt="Ubiquiti" title="Ubiquiti" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Panduit_logo.png" alt="Panduit" title="Panduit" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Apc_logo.png" alt="APC by Schneider" title="APC by Schneider" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Belden_logo.png" alt="Belden" title="Belden" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Juniper-Networks_logo.png" alt="Juniper" title="Juniper" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/HPE-Aruba_logo.png" alt="HPE Aruba" title="HPE Aruba" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Grandstream_logo.png" alt="GrandStream" title="GrandStream" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Dahua_logo.png" alt="Dahua" title="Dahua" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo brand-logo--lg"><img src="images/Brands/systimax.png" alt="Systimax" title="Systimax" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Leyard_logo.png" alt="Leyard" title="Leyard" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Axis_logo.png" alt="Axis" title="Axis" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Alhua_logo.png" alt="Alhua" title="Alhua" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo brand-logo--lg"><img src="images/Brands/Hikvision.png" alt="Hikvision" title="Hikvision" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Honeywell.png" alt="Honeywell" title="Honeywell" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo brand-logo--lg"><img src="images/Brands/firelite.png" alt="Fire-Lite" title="Fire-Lite" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Avaya.png" alt="Avaya" title="Avaya" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo"><img src="images/Brands/Legrand.png" alt="Legrand" title="Legrand" onerror="this.parentElement.style.display='none';"></div>
-        <div class="brand-logo brand-logo--lg"><img src="images/Brands/paradox.png" alt="Paradox" title="Paradox" onerror="this.parentElement.style.display='none';"></div>
       </div>
     </div>
   </div>
@@ -410,45 +396,45 @@
 <section class="contact-section" id="contacto">
   <div class="contact-inner">
     <div class="contact-left">
-      <div class="section-tag">Hablemos</div>
-      <h2 class="section-title">¿Listo para su <span class="highlight">próximo proyecto</span>?</h2>
-      <p class="contact-desc">Nuestro equipo de especialistas acreditados está listo para garantizar el éxito en cada uno de sus proyectos.</p>
+      <div class="section-tag" data-i18n="contact.tag">Hablemos</div>
+      <h2 class="section-title" data-i18n-html="contact.title">¿Listo para su <span class="highlight">próximo proyecto</span>?</h2>
+      <p class="contact-desc" data-i18n="contact.desc">Nuestro equipo de especialistas acreditados está listo para garantizar el éxito en cada uno de sus proyectos.</p>
       <div class="contact-info">
-        <div class="info-item"><div class="info-icon">📍</div><div><div class="info-label">Ubicación</div><div class="info-value">San José, Costa Rica</div></div></div>
-        <div class="info-item"><div class="info-icon">📧</div><div><div class="info-label">Email</div><div class="info-value">ventas@equantcr.com</div></div></div>
-        <div class="info-item"><div class="info-icon">📞</div><div><div class="info-label">Teléfono</div><div class="info-value">+506 4000-0832</div></div></div>
+        <div class="info-item"><div class="info-icon">📍</div><div><div class="info-label" data-i18n="contact.location.label">Ubicación</div><div class="info-value">San José, Costa Rica</div></div></div>
+        <div class="info-item"><div class="info-icon">📧</div><div><div class="info-label" data-i18n="contact.email.label">Email</div><div class="info-value">ventas@equantcr.com</div></div></div>
+        <div class="info-item"><div class="info-icon">📞</div><div><div class="info-label" data-i18n="contact.phone.label">Teléfono</div><div class="info-value">+506 4000-0832</div></div></div>
         <div class="info-item">
           <a href="https://wa.me/50688545445" target="_blank" rel="noopener noreferrer" class="whatsapp-link" title="Contáctenos por WhatsApp">
             <div class="info-icon info-icon--whatsapp"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></div>
-            <div><div class="info-label">WhatsApp</div><div class="info-value">+506 8854-5445</div></div>
+            <div><div class="info-label" data-i18n="contact.whatsapp.label">WhatsApp</div><div class="info-value">+506 8854-5445</div></div>
           </a>
         </div>
       </div>
     </div>
     <div class="contact-right">
       <div class="contact-form-card">
-        <h3>Envíenos un mensaje</h3>
-        <div class="form-group"><label>Nombre completo</label><input type="text" id="form-name" placeholder="Su nombre" class="form-input"></div>
-        <div class="form-group"><label>Correo electrónico</label><input type="email" id="form-email" placeholder="su@email.com" class="form-input"></div>
+        <h3 data-i18n="contact.form.title">Envíenos un mensaje</h3>
+        <div class="form-group"><label data-i18n="contact.form.name.label">Nombre completo</label><input type="text" id="form-name" data-i18n-placeholder="contact.form.name.placeholder" placeholder="Su nombre" class="form-input"></div>
+        <div class="form-group"><label data-i18n="contact.form.email.label">Correo electrónico</label><input type="email" id="form-email" placeholder="su@email.com" class="form-input"></div>
         <div class="form-group">
-          <label>Servicio de interés</label>
+          <label data-i18n="contact.form.service.label">Servicio de interés</label>
           <select id="form-service" class="form-input">
-            <option value="">Seleccione un servicio...</option>
-            <option>Datacenters</option>
-            <option>Networking</option>
-            <option>Switching &amp; Routing</option>
-            <option>Respaldo de Energía</option>
-            <option>Telefonía VoIP</option>
-            <option>Sistemas de Enfriamiento</option>
-            <option>Seguridad Electrónica</option>
-            <option>Electromecánica</option>
-            <option>Automatización</option>
-            <option>Enlaces Inalámbricos</option>
-            <option>Digital Signage</option>
+            <option value="" data-i18n="contact.form.service.placeholder">Seleccione un servicio...</option>
+            <option data-i18n="svc.name.dc">Datacenters</option>
+            <option data-i18n="svc.name.net">Networking</option>
+            <option data-i18n="svc.name.sw">Switching &amp; Routing</option>
+            <option data-i18n="svc.name.energy">Respaldo de Energía</option>
+            <option data-i18n="svc.name.voip">Telefonía VoIP</option>
+            <option data-i18n="svc.name.cooling">Sistemas de Enfriamiento</option>
+            <option data-i18n="svc.name.security">Seguridad Electrónica</option>
+            <option data-i18n="svc.name.electro">Electromecánica</option>
+            <option data-i18n="svc.name.auto">Automatización</option>
+            <option data-i18n="svc.name.links">Enlaces Inalámbricos</option>
+            <option data-i18n="svc.name.signage">Digital Signage</option>
           </select>
         </div>
-        <div class="form-group"><label>Mensaje</label><textarea id="form-message" placeholder="Cuéntenos sobre su proyecto..." class="form-textarea" rows="4"></textarea></div>
-        <button class="btn-primary full-width" id="form-submit"><span>Enviar mensaje →</span></button>
+        <div class="form-group"><label data-i18n="contact.form.message.label">Mensaje</label><textarea id="form-message" data-i18n-placeholder="contact.form.message.placeholder" placeholder="Cuéntenos sobre su proyecto..." class="form-textarea" rows="4"></textarea></div>
+        <button class="btn-primary full-width" id="form-submit"><span data-i18n="contact.form.submit">Enviar mensaje →</span></button>
         <p id="form-status" style="margin-top:12px;font-size:0.9rem;"></p>
       </div>
     </div>
@@ -458,24 +444,14 @@
 <section class="partners-section" id="socios">
   <div class="partners-inner">
     <div class="section-header">
-      <div class="section-tag">Nuestros aliados</div>
-      <h2 class="section-title">Socios <span class="highlight">Comerciales</span></h2>
-      <p class="section-desc">Empresas líderes que confían en nuestras soluciones y con quienes construimos proyectos de excelencia.</p>
+      <div class="section-tag" data-i18n="partners.tag">Nuestros aliados</div>
+      <h2 class="section-title" data-i18n-html="partners.title">Socios <span class="highlight">Comerciales</span></h2>
+      <p class="section-desc" data-i18n="partners.desc">Empresas líderes que confían en nuestras soluciones y con quienes construimos proyectos de excelencia.</p>
     </div>
     <div class="partners-track-wrapper">
       <div class="partners-fade partners-fade--left"></div>
       <div class="partners-fade partners-fade--right"></div>
       <div class="partners-track">
-        <div class="partner-logo"><img src="images/clients/conectividad.png" alt="Conectividad" title="Conectividad"></div>
-        <div class="partner-logo"><img src="images/clients/brenes.png" alt="Brenes" title="Brenes"></div>
-        <div class="partner-logo"><img src="images/clients/sita.png" alt="SITA" title="SITA"></div>
-        <div class="partner-logo partner-logo--lg"><img src="images/clients/fraiche.png" alt="Fraiche Perfumes" title="Fraiche Perfumes"></div>
-        <div class="partner-logo"><img src="images/clients/u_latina_gris.png" alt="Universidad Latina CR" title="Universidad Latina CR"></div>
-        <div class="partner-logo"><img src="images/clients/uam.png" alt="Universidad Americana" title="Universidad Americana"></div>
-        <div class="partner-logo partner-logo--lg"><img src="images/clients/air_france.png" alt="Air France" title="Air France" onerror="this.parentElement.style.display='none';"></div>
-        <div class="partner-logo partner-logo--lg"><img src="images/clients/klm.png" alt="KLM" title="KLM" onerror="this.parentElement.style.display='none';"></div>
-        <div class="partner-logo"><img src="images/clients/United.jpg" alt="United" title="United" onerror="this.parentElement.style.display='none';"></div>
-        <!-- Duplicate for seamless loop -->
         <div class="partner-logo"><img src="images/clients/conectividad.png" alt="Conectividad" title="Conectividad"></div>
         <div class="partner-logo"><img src="images/clients/brenes.png" alt="Brenes" title="Brenes"></div>
         <div class="partner-logo"><img src="images/clients/sita.png" alt="SITA" title="SITA"></div>
@@ -492,13 +468,13 @@
 
 <section class="stats-band">
   <div class="stats-grid">
-    <div class="stat-item"><div class="stat-number">20<span>+</span></div><div class="stat-label">Años de experiencia</div></div>
+    <div class="stat-item"><div class="stat-number">20<span>+</span></div><div class="stat-label" data-i18n="stats.experience">Años de experiencia</div></div>
     <div class="stat-divider"></div>
-    <div class="stat-item"><div class="stat-number">500<span>+</span></div><div class="stat-label">Proyectos completados</div></div>
+    <div class="stat-item"><div class="stat-number">500<span>+</span></div><div class="stat-label" data-i18n="stats.projects">Proyectos completados</div></div>
     <div class="stat-divider"></div>
-    <div class="stat-item"><div class="stat-number">100<span>%</span></div><div class="stat-label">Compromiso con el cliente</div></div>
+    <div class="stat-item"><div class="stat-number">100<span>%</span></div><div class="stat-label" data-i18n="stats.commitment">Compromiso con el cliente</div></div>
     <div class="stat-divider"></div>
-    <div class="stat-item"><div class="stat-number">CR</div><div class="stat-label">Presencia en Costa Rica</div></div>
+    <div class="stat-item"><div class="stat-number">CR</div><div class="stat-label" data-i18n="stats.presence">Presencia en Costa Rica</div></div>
   </div>
 </section>
 
@@ -506,32 +482,32 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="#inicio"><img src="images/logo-equant.svg" alt="EquantCR - Engineering &amp; IT Solutions" class="logo-img footer-logo-img"></a>
-      <p class="footer-tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
+      <p class="footer-tagline" data-i18n="footer.tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
     </div>
     <div class="footer-links-col">
-      <h4>Servicios</h4>
-      <a href="datacenters.html">Datacenters</a>
-      <a href="networking.html">Networking</a>
-      <a href="switching.html">Switching &amp; Routing</a>
-      <a href="respaldoDeEnergia.html">Respaldo de Energía</a>
-      <a href="telefoniaVoip.html">Telefonía VoIP</a>
-      <a href="sistemasDeEnfriamiento.html">Sistemas de Enfriamiento</a>
+      <h4 data-i18n="footer.services">Servicios</h4>
+      <a href="datacenters.html" data-i18n="svc.name.dc">Datacenters</a>
+      <a href="networking.html" data-i18n="svc.name.net">Networking</a>
+      <a href="switching.html" data-i18n="svc.name.sw">Switching &amp; Routing</a>
+      <a href="respaldoDeEnergia.html" data-i18n="svc.name.energy">Respaldo de Energía</a>
+      <a href="telefoniaVoip.html" data-i18n="svc.name.voip">Telefonía VoIP</a>
+      <a href="sistemasDeEnfriamiento.html" data-i18n="svc.name.cooling">Sistemas de Enfriamiento</a>
     </div>
     <div class="footer-links-col">
-      <h4>Más servicios</h4>
-      <a href="seguridadElectronica.html">Seguridad Electrónica</a>
-      <a href="electromecanica.html">Electromecánica</a>
-      <a href="automatizacion.html">Automatización</a>
-      <a href="enlaces.html">Enlaces Inalámbricos</a>
-      <a href="digitalSignage.html">Digital Signage</a>
-      <a href="#nosotros"><strong>Acerca de nosotros</strong></a>
-      <a href="#contacto"><strong>Contáctenos</strong></a>
+      <h4 data-i18n="footer.more.services">Más servicios</h4>
+      <a href="seguridadElectronica.html" data-i18n="svc.name.security">Seguridad Electrónica</a>
+      <a href="electromecanica.html" data-i18n="svc.name.electro">Electromecánica</a>
+      <a href="automatizacion.html" data-i18n="svc.name.auto">Automatización</a>
+      <a href="enlaces.html" data-i18n="svc.name.links">Enlaces Inalámbricos</a>
+      <a href="digitalSignage.html" data-i18n="svc.name.signage">Digital Signage</a>
+      <a href="#nosotros" data-i18n-html="footer.about"><strong>Acerca de nosotros</strong></a>
+      <a href="#contacto" data-i18n-html="footer.contact"><strong>Contáctenos</strong></a>
     </div>
     <div class="footer-pyme-col">
       <img src="images/Pyme.svg" alt="Empresa PYME" class="footer-pyme-img" onerror="this.style.display='none';">
     </div>
   </div>
-  <div class="footer-bottom"><span>© <span id="footer-year"></span> EquantCR. Todos los derechos reservados.</span></div>
+  <div class="footer-bottom"><span>© <span id="footer-year"></span> EquantCR. <span data-i18n="footer.rights">Todos los derechos reservados.</span></span></div>
 </footer>
 
 <a class="fab-whatsapp" href="https://wa.me/50688545445" target="_blank" rel="noopener noreferrer" title="Contáctenos por WhatsApp">
@@ -544,7 +520,315 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
+  // ── i18n translations ─────────────────────────────────────────
+  var i18n = {
+    es: {
+      'nav.services': 'Nuestros servicios',
+      'nav.projects': 'Proyectos',
+      'nav.about': 'Acerca de nosotros',
+      'nav.contact': 'Contáctenos',
+      'hero.tag': 'Ingeniería & Soluciones de TI',
+      'hero.title': 'Expertos en <span class="highlight">Infraestructura Tecnológica <br>e Ingeniería Integrada</span>',
+      'hero.desc': 'Ofreciendo Soluciones Integradas en Tecnologías de la Información, Seguridad Electrónica, Telecomunicaciones, Electromecánica y Pantallas Digitales Inteligentes.',
+      'hero.btn.services': 'Servicios',
+      'hero.btn.projects': 'Proyectos',
+      'about.tag': 'Quiénes somos',
+      'about.title': 'Empresa pionera en <span class="highlight">Telecomunicaciones y Electromecánica</span>',
+      'about.text1': 'Somos una empresa pionera, con presencia en la industria de las <strong>Telecomunicaciones y Electromecánica</strong> con más de 20 años de experiencia en brindar soluciones Integrales al mercado costarricense.',
+      'about.text2': 'Desde su fundación se ha convertido en una empresa líder en el diseño, certificación, auditoría y operación de proyectos tanto de misión crítica, como constructivos.',
+      'about.text3': 'La <strong class="highlight">Excelencia y la Innovación</strong> forman parte inherente de todos y cada uno de nuestros servicios. De esta forma garantizamos a nuestros clientes proyectos diseñados y construidos bajo los más altos estándares.',
+      'about.badge': 'Años en el mercado',
+      'about.value1': 'Excelencia profesional',
+      'about.value2': 'Trabajo en equipo',
+      'about.value3': 'Adaptabilidad al cambio',
+      'about.value4': 'Creatividad e innovación',
+      'about.value5': 'Compromiso con el cliente',
+      'mvv.mission.title': 'MISIÓN',
+      'mvv.mission.text': 'Contribuir a consolidar proyectos de tecnología en comunicación con servicios de calidad y soluciones innovadoras.',
+      'mvv.vision.title': 'VISIÓN',
+      'mvv.vision.text': 'Ser líder en la integración de soluciones tecnológicas a través de un enfoque centrado donde el cliente es prioridad. Ser una empresa de vanguardia que brinde soluciones innovadoras en el área de las telecomunicaciones y electromecánica, comprometidos con el cumplimiento de los requerimientos de los clientes e integrando calidad en nuestros servicios y productos.',
+      'mvv.values.title': 'VALORES',
+      'mvv.values.text': 'Excelencia profesional · Trabajo en equipo · Adaptabilidad al cambio · Creatividad e innovación · Compromiso con el cliente.',
+      'industries.tag': 'Sectores que atendemos',
+      'industries.title': 'Industrias donde <span class="highlight">generamos impacto</span>',
+      'industries.desc': 'Llevamos soluciones tecnológicas de alto nivel a los sectores más exigentes de Costa Rica y la región.',
+      'industry.airports': 'Aeropuertos',
+      'industry.transport': 'Transporte',
+      'industry.education': 'Educación',
+      'industry.supermarkets': 'Supermercados',
+      'industry.corporate': 'Corporativo',
+      'industry.financial': 'Financiero',
+      'industry.health': 'Salud',
+      'industry.restaurants': 'Restaurantes',
+      'industry.industrial': 'Industrial',
+      'industry.government': 'Gobierno',
+      'industry.hospitality': 'Hotelería',
+      'services.tag': 'Lo que ofrecemos',
+      'services.title': 'Nuestros <span class="highlight">Servicios</span>',
+      'services.desc': 'Soluciones integrales en telecomunicaciones, infraestructura de TI y electromecánica para todos los sectores.',
+      'services.cta': 'Ver más →',
+      'svc.dc.li1': 'Canalización para cables de comunicación',
+      'svc.dc.li2': 'Piso Falso',
+      'svc.dc.li3': 'Cooling Systems',
+      'svc.dc.li4': 'Monitoreo y Accesos',
+      'svc.net.li1': 'Cableado Estructurado Cat6/Cat7',
+      'svc.net.li2': 'Fibra Óptica Monomodo & Multimodo',
+      'svc.net.li3': 'Telecom Grounding Systems',
+      'svc.net.li4': 'Canalización de Cable',
+      'svc.sw.li1': 'Diseño e Implementación de Soluciones TI',
+      'svc.sw.li2': 'Switches, Routers y Access Points',
+      'svc.sw.li3': 'Firewalls',
+      'svc.sw.li4': 'Certificaciones',
+      'svc.energy.li1': 'UPS — Sistemas de Energía Ininterrumpida',
+      'svc.energy.li2': 'Genset — Grupos Electrógenos',
+      'svc.energy.li3': 'Paneles Solares',
+      'svc.voip.li1': 'Comunicaciones Unificadas',
+      'svc.voip.li2': 'Centrales telefónicas IP',
+      'svc.voip.li3': 'Videoconferencia',
+      'svc.voip.li4': 'Soluciones de colaboración empresarial',
+      'svc.cooling.li1': 'Unidades Split',
+      'svc.cooling.li2': 'Unidades Piso Cielo',
+      'svc.cooling.li3': 'Unidades Centrales de Ducto',
+      'svc.cooling.li4': 'AA de Confort y Precisión',
+      'svc.security.li1': 'Video Vigilancia IP',
+      'svc.security.li2': 'Control de Accesos',
+      'svc.security.li3': 'Detección de Incendio',
+      'svc.security.li4': 'Sistemas contra Intrusión',
+      'svc.elec.li1': 'Protecciones Eléctricas',
+      'svc.elec.li2': 'Pararrayos tipos varios',
+      'svc.elec.li3': 'Malla de tierras',
+      'svc.elec.li4': 'Soldadura exotérmica',
+      'svc.auto.li1': 'Automatización Industrial',
+      'svc.auto.li2': 'Domótica / Hogar Inteligente',
+      'svc.links.li1': 'Enlaces Inalámbricos Punto a Punto',
+      'svc.links.li2': 'Sistemas Multipunto',
+      'svc.signage.li1': 'VideoWall y Pantallas Gigantes',
+      'svc.signage.li2': 'Pantallas Interactivas y Kioscos',
+      'svc.signage.li3': 'Automatización de Salas',
+      'svc.signage.li4': 'Publicidad Digital',
+      'svc.name.dc': 'Datacenters',
+      'svc.name.net': 'Networking',
+      'svc.name.sw': 'Switching & Routing',
+      'svc.name.energy': 'Respaldo de Energía',
+      'svc.name.voip': 'Telefonía VoIP',
+      'svc.name.cooling': 'Sistemas de Enfriamiento',
+      'svc.name.security': 'Seguridad Electrónica',
+      'svc.name.electro': 'Electromecánica',
+      'svc.name.auto': 'Automatización',
+      'svc.name.links': 'Enlaces Inalámbricos',
+      'svc.name.signage': 'Digital Signage',
+      'brands.tag': 'Tecnología de vanguardia',
+      'brands.title': 'Marcas <span class="highlight">Representadas</span>',
+      'brands.desc': 'Trabajamos con los fabricantes líderes a nivel mundial para garantizar soluciones de la más alta calidad.',
+      'contact.tag': 'Hablemos',
+      'contact.title': '¿Listo para su <span class="highlight">próximo proyecto</span>?',
+      'contact.desc': 'Nuestro equipo de especialistas acreditados está listo para garantizar el éxito en cada uno de sus proyectos.',
+      'contact.location.label': 'Ubicación',
+      'contact.email.label': 'Email',
+      'contact.phone.label': 'Teléfono',
+      'contact.whatsapp.label': 'WhatsApp',
+      'contact.form.title': 'Envíenos un mensaje',
+      'contact.form.name.label': 'Nombre completo',
+      'contact.form.name.placeholder': 'Su nombre',
+      'contact.form.email.label': 'Correo electrónico',
+      'contact.form.service.label': 'Servicio de interés',
+      'contact.form.service.placeholder': 'Seleccione un servicio...',
+      'contact.form.message.label': 'Mensaje',
+      'contact.form.message.placeholder': 'Cuéntenos sobre su proyecto...',
+      'contact.form.submit': 'Enviar mensaje →',
+      'contact.form.validation': 'Por favor complete todos los campos.',
+      'contact.email.subject': 'Consulta: ',
+      'partners.tag': 'Nuestros aliados',
+      'partners.title': 'Socios <span class="highlight">Comerciales</span>',
+      'partners.desc': 'Empresas líderes que confían en nuestras soluciones y con quienes construimos proyectos de excelencia.',
+      'stats.experience': 'Años de experiencia',
+      'stats.projects': 'Proyectos completados',
+      'stats.commitment': 'Compromiso con el cliente',
+      'stats.presence': 'Presencia en Costa Rica',
+      'footer.tagline': 'Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.',
+      'footer.services': 'Servicios',
+      'footer.more.services': 'Más servicios',
+      'footer.rights': 'Todos los derechos reservados.',
+      'footer.about': '<strong>Acerca de nosotros</strong>',
+      'footer.contact': '<strong>Contáctenos</strong>'
+    },
+    en: {
+      'nav.services': 'Our Services',
+      'nav.projects': 'Projects',
+      'nav.about': 'About Us',
+      'nav.contact': 'Contact Us',
+      'hero.tag': 'Engineering & IT Solutions',
+      'hero.title': 'Experts in <span class="highlight">Technological Infrastructure <br>and Integrated Engineering</span>',
+      'hero.desc': 'Offering Integrated Solutions in Information Technology, Electronic Security, Telecommunications, Electromechanics and Intelligent Digital Displays.',
+      'hero.btn.services': 'Services',
+      'hero.btn.projects': 'Projects',
+      'about.tag': 'Who We Are',
+      'about.title': 'Pioneer Company in <span class="highlight">Telecommunications and Electromechanics</span>',
+      'about.text1': 'We are a pioneer company, with a presence in the <strong>Telecommunications and Electromechanics</strong> industry with more than 20 years of experience providing comprehensive solutions to the Costa Rican market.',
+      'about.text2': 'Since its founding, it has become a leading company in the design, certification, auditing and operation of both mission-critical and construction projects.',
+      'about.text3': '<strong class="highlight">Excellence and Innovation</strong> are inherent to each and every one of our services. This way we guarantee our clients projects designed and built to the highest standards.',
+      'about.badge': 'Years in the market',
+      'about.value1': 'Professional Excellence',
+      'about.value2': 'Teamwork',
+      'about.value3': 'Adaptability to Change',
+      'about.value4': 'Creativity and Innovation',
+      'about.value5': 'Client Commitment',
+      'mvv.mission.title': 'MISSION',
+      'mvv.mission.text': 'To contribute to consolidating technology projects in communication with quality services and innovative solutions.',
+      'mvv.vision.title': 'VISION',
+      'mvv.vision.text': 'To be a leader in the integration of technological solutions through a client-centered approach where the customer is the priority. To be a cutting-edge company that provides innovative solutions in telecommunications and electromechanics, committed to meeting client requirements and integrating quality into our services and products.',
+      'mvv.values.title': 'VALUES',
+      'mvv.values.text': 'Professional Excellence · Teamwork · Adaptability to Change · Creativity and Innovation · Client Commitment.',
+      'industries.tag': 'Sectors We Serve',
+      'industries.title': 'Industries Where We <span class="highlight">Generate Impact</span>',
+      'industries.desc': 'We bring high-level technological solutions to the most demanding sectors in Costa Rica and the region.',
+      'industry.airports': 'Airports',
+      'industry.transport': 'Transportation',
+      'industry.education': 'Education',
+      'industry.supermarkets': 'Supermarkets',
+      'industry.corporate': 'Corporate',
+      'industry.financial': 'Financial',
+      'industry.health': 'Healthcare',
+      'industry.restaurants': 'Restaurants',
+      'industry.industrial': 'Industrial',
+      'industry.government': 'Government',
+      'industry.hospitality': 'Hospitality',
+      'services.tag': 'What We Offer',
+      'services.title': 'Our <span class="highlight">Services</span>',
+      'services.desc': 'Comprehensive solutions in telecommunications, IT infrastructure and electromechanics for all sectors.',
+      'services.cta': 'Learn more →',
+      'svc.dc.li1': 'Communication Cable Conduit',
+      'svc.dc.li2': 'Raised Floor',
+      'svc.dc.li3': 'Cooling Systems',
+      'svc.dc.li4': 'Monitoring and Access',
+      'svc.net.li1': 'Structured Cabling Cat6/Cat7',
+      'svc.net.li2': 'Single-mode & Multi-mode Fiber Optics',
+      'svc.net.li3': 'Telecom Grounding Systems',
+      'svc.net.li4': 'Cable Conduit',
+      'svc.sw.li1': 'IT Solutions Design and Implementation',
+      'svc.sw.li2': 'Switches, Routers and Access Points',
+      'svc.sw.li3': 'Firewalls',
+      'svc.sw.li4': 'Certifications',
+      'svc.energy.li1': 'UPS — Uninterruptible Power Systems',
+      'svc.energy.li2': 'Genset — Generator Sets',
+      'svc.energy.li3': 'Solar Panels',
+      'svc.voip.li1': 'Unified Communications',
+      'svc.voip.li2': 'IP PBX Systems',
+      'svc.voip.li3': 'Video Conferencing',
+      'svc.voip.li4': 'Business Collaboration Solutions',
+      'svc.cooling.li1': 'Split Units',
+      'svc.cooling.li2': 'Floor-to-Ceiling Units',
+      'svc.cooling.li3': 'Central Duct Units',
+      'svc.cooling.li4': 'Comfort and Precision AC',
+      'svc.security.li1': 'IP Video Surveillance',
+      'svc.security.li2': 'Access Control',
+      'svc.security.li3': 'Fire Detection',
+      'svc.security.li4': 'Intrusion Detection Systems',
+      'svc.elec.li1': 'Electrical Protections',
+      'svc.elec.li2': 'Various Lightning Rods',
+      'svc.elec.li3': 'Grounding Grid',
+      'svc.elec.li4': 'Exothermic Welding',
+      'svc.auto.li1': 'Industrial Automation',
+      'svc.auto.li2': 'Home Automation / Smart Home',
+      'svc.links.li1': 'Point-to-Point Wireless Links',
+      'svc.links.li2': 'Multipoint Systems',
+      'svc.signage.li1': 'VideoWall and Giant Screens',
+      'svc.signage.li2': 'Interactive Displays and Kiosks',
+      'svc.signage.li3': 'Room Automation',
+      'svc.signage.li4': 'Digital Advertising',
+      'svc.name.dc': 'Datacenters',
+      'svc.name.net': 'Networking',
+      'svc.name.sw': 'Switching & Routing',
+      'svc.name.energy': 'Energy Backup',
+      'svc.name.voip': 'VoIP Telephony',
+      'svc.name.cooling': 'Cooling Systems',
+      'svc.name.security': 'Electronic Security',
+      'svc.name.electro': 'Electromechanics',
+      'svc.name.auto': 'Automation',
+      'svc.name.links': 'Wireless Links',
+      'svc.name.signage': 'Digital Signage',
+      'brands.tag': 'Cutting-edge Technology',
+      'brands.title': '<span class="highlight">Represented</span> Brands',
+      'brands.desc': "We work with the world's leading manufacturers to guarantee the highest quality solutions.",
+      'contact.tag': "Let's Talk",
+      'contact.title': 'Ready for Your <span class="highlight">Next Project</span>?',
+      'contact.desc': 'Our team of accredited specialists is ready to guarantee the success of each of your projects.',
+      'contact.location.label': 'Location',
+      'contact.email.label': 'Email',
+      'contact.phone.label': 'Phone',
+      'contact.whatsapp.label': 'WhatsApp',
+      'contact.form.title': 'Send Us a Message',
+      'contact.form.name.label': 'Full Name',
+      'contact.form.name.placeholder': 'Your name',
+      'contact.form.email.label': 'Email Address',
+      'contact.form.service.label': 'Service of Interest',
+      'contact.form.service.placeholder': 'Select a service...',
+      'contact.form.message.label': 'Message',
+      'contact.form.message.placeholder': 'Tell us about your project...',
+      'contact.form.submit': 'Send message →',
+      'contact.form.validation': 'Please complete all fields.',
+      'contact.email.subject': 'Inquiry: ',
+      'partners.tag': 'Our Partners',
+      'partners.title': '<span class="highlight">Commercial</span> Partners',
+      'partners.desc': 'Leading companies that trust our solutions and with whom we build projects of excellence.',
+      'stats.experience': 'Years of Experience',
+      'stats.projects': 'Completed Projects',
+      'stats.commitment': 'Client Commitment',
+      'stats.presence': 'Presence in Costa Rica',
+      'footer.tagline': 'Comprehensive solutions in telecommunications and electromechanics for Costa Rica.',
+      'footer.services': 'Services',
+      'footer.more.services': 'More Services',
+      'footer.rights': 'All rights reserved.',
+      'footer.about': '<strong>About Us</strong>',
+      'footer.contact': '<strong>Contact Us</strong>'
+    }
+  };
+
+  var currentLang = localStorage.getItem('equant-lang') || 'es';
+
+  function applyLang(lang) {
+    currentLang = lang;
+    var t = i18n[lang];
+    document.querySelectorAll('[data-i18n]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n');
+      if (t[key] !== undefined) el.textContent = t[key];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n-html');
+      if (t[key] !== undefined) el.innerHTML = t[key];
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n-placeholder');
+      if (t[key] !== undefined) el.placeholder = t[key];
+    });
+    document.documentElement.lang = lang;
+    document.title = lang === 'en'
+      ? 'EquantCR - Engineering & IT Solutions'
+      : 'EquantCR - Ingeniería & Soluciones de TI';
+    localStorage.setItem('equant-lang', lang);
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.toggle('lang-btn--active', btn.getAttribute('data-lang') === lang);
+    });
+  }
+
   document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  // Infinite carousel — clone items after load, then set duration by real pixel width
+  window.addEventListener('load', function () {
+    var PX_PER_SEC = 80; // same visual speed for all carousels
+    ['.brands-track', '.partners-track'].forEach(function (sel) {
+      var track = document.querySelector(sel);
+      if (!track) return;
+      var origItems = Array.prototype.slice.call(track.children);
+      origItems.forEach(function (item) {
+        track.appendChild(item.cloneNode(true));
+      });
+      // scrollWidth is now both sets; half = one loop cycle
+      var oneSetPx = track.scrollWidth / 2;
+      track.style.animationDuration = (oneSetPx / PX_PER_SEC) + 's';
+      track.style.animationPlayState = 'running';
+    });
+  });
 
   var btt = document.getElementById('back-to-top');
   window.addEventListener('scroll', function(){ btt.classList.toggle('visible', window.scrollY > 400); });
@@ -573,11 +857,11 @@
     var message = document.getElementById('form-message').value.trim();
     var status  = document.getElementById('form-status');
     if (!name || !email || !message) {
-      status.textContent = 'Por favor complete todos los campos.';
+      status.textContent = i18n[currentLang]['contact.form.validation'];
       status.style.color = '#f87171';
       return;
     }
-    var subject = encodeURIComponent('Consulta: ' + service);
+    var subject = encodeURIComponent(i18n[currentLang]['contact.email.subject'] + service);
     var body = encodeURIComponent('Nombre: ' + name + '\nCorreo: ' + email + '\nServicio: ' + service + '\n\nMensaje:\n' + message);
     window.location.href = 'mailto:ventas@equantcr.com?cc=gherrera@equantcr.com&subject=' + subject + '&body=' + body;
   });
@@ -587,8 +871,8 @@
     var slides = document.querySelectorAll('.hero-slide');
     if (!slides.length) return;
     var idx = 0;
-    var DISPLAY_MS = 5000;  // tiempo visible por imagen
-    var FADE_OUT_MS = 700;  // cuánto esperar para que oscurezca antes de mostrar la siguiente
+    var DISPLAY_MS = 5000;
+    var FADE_OUT_MS = 700;
 
     setInterval(function () {
       slides[idx].classList.remove('is-active');
@@ -598,6 +882,16 @@
       }, FADE_OUT_MS);
     }, DISPLAY_MS);
   })();
+
+  // Language toggle
+  document.querySelectorAll('.lang-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      applyLang(this.getAttribute('data-lang'));
+    });
+  });
+
+  // Apply saved language on load (skip if Spanish since that's the default)
+  if (currentLang !== 'es') applyLang(currentLang);
 </script>
 </body>
 </html>

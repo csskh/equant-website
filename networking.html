@@ -11,12 +11,19 @@
 <nav class="navbar navbar-solid">
   <div class="nav-logo"><a href="index.html"><img src="images/logo-equant.svg" alt="EquantCR" class="logo-img"></a></div>
   <div class="nav-links">
-    <a href="index.html#servicios" class="nav-link">Nuestros servicios</a>
-    <a href="/proyectos" class="nav-link">Proyectos</a>
-    <a href="index.html#nosotros" class="nav-link">Acerca de nosotros</a>
-    <a href="index.html#contacto" class="nav-link nav-cta">Contáctenos</a>
+    <a href="index.html#servicios" class="nav-link" data-i18n="nav.services">Nuestros servicios</a>
+    <a href="proyectos.html" class="nav-link" data-i18n="nav.projects">Proyectos</a>
+    <a href="index.html#nosotros" class="nav-link" data-i18n="nav.about">Acerca de nosotros</a>
+    <a href="index.html#contacto" class="nav-link nav-cta" data-i18n="nav.contact">Contáctenos</a>
   </div>
-  <button class="hamburger"><span></span><span></span><span></span></button>
+  <div class="nav-end">
+    <div class="lang-toggle" id="lang-toggle">
+      <button class="lang-btn lang-btn--active" data-lang="es">ES</button>
+      <span class="lang-sep">|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
 </nav>
 
 <div class="svc-page-body">
@@ -25,13 +32,13 @@
     <div class="svc-fullbg-overlay" style="opacity:0.55;"></div>
 
     <section class="svc-fullbg-hero">
-      <a href="index.html#servicios" class="back-link">← Volver a Servicios</a>
-      <div class="hero-tag">Conectividad de alta velocidad</div>
+      <a href="index.html#servicios" class="back-link" data-i18n="common.back">← Volver a Servicios</a>
+      <div class="hero-tag" data-i18n="net.hero.tag">Conectividad de alta velocidad</div>
       <h1 class="hero-title" tabindex="-1">NET<span class="highlight">WORKING</span></h1>
-      <p class="hero-desc">Diseño, instalación y certificación de redes de cableado estructurado y fibra óptica que forman la columna vertebral de su infraestructura digital.</p>
+      <p class="hero-desc" data-i18n="net.hero.desc">Diseño, instalación y certificación de redes de cableado estructurado y fibra óptica que forman la columna vertebral de su infraestructura digital.</p>
       <div class="hero-actions">
-        <a href="index.html#contacto" class="btn-primary">Solicitar propuesta →</a>
-        <a href="index.html#servicios" class="btn-ghost">Ver todos los servicios</a>
+        <a href="index.html#contacto" class="btn-primary" data-i18n="common.request.proposal">Solicitar propuesta →</a>
+        <a href="index.html#servicios" class="btn-ghost" data-i18n="common.view.services">Ver todos los servicios</a>
       </div>
     </section>
 
@@ -40,10 +47,10 @@
 
         <div class="dc-banner-card">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Diseño y Certificación de Cableado Estructurado</h3>
-            <p class="dc-banner-desc">El diseño del sistema de cableado es un paso fundamental que tiene un impacto directo en el desempeño de la red. Un diseño preciso del sistema de cableado que considere todas las variables en juego, proporciona claridad para el diseño de la red del datacenter y asegura que las aplicaciones empresariales sean soportadas de la mejor forma.</p>
-            <p class="dc-banner-desc">Cualquier red de cableado debe tener su correspondiente certificación que garantice que:<br>▸ Se han utilizado materiales de calidad.<br>▸ El proceso de instalación se ha realizado según normativa.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="net.c1.title">Diseño y Certificación de Cableado Estructurado</h3>
+            <p class="dc-banner-desc" data-i18n="net.c1.d1">El diseño del sistema de cableado es un paso fundamental que tiene un impacto directo en el desempeño de la red. Un diseño preciso del sistema de cableado que considere todas las variables en juego, proporciona claridad para el diseño de la red del datacenter y asegura que las aplicaciones empresariales sean soportadas de la mejor forma.</p>
+            <p class="dc-banner-desc" data-i18n-html="net.c1.d2">Cualquier red de cableado debe tener su correspondiente certificación que garantice que:<br>▸ Se han utilizado materiales de calidad.<br>▸ El proceso de instalación se ha realizado según normativa.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/networking/cableado.jpg" alt="Cableado Estructurado" onerror="this.parentElement.style.display='none';">
@@ -52,10 +59,10 @@
 
         <div class="dc-banner-card dc-banner-card--reverse">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">UTP Cabling Systems</h3>
-            <p class="dc-banner-desc">En los últimos años, el cableado estructurado ha llevado a cabo una gran evolución con el objetivo de soportar mayores velocidades y arquitecturas de red más complejas que permitan una gestión eficiente para los edificios inteligentes. Las siguientes categorías (6-8) son las más demandadas actualmente:</p>
-            <p class="dc-banner-desc">▸ Categoría 6 &nbsp;▸ Categoría 6A &nbsp;▸ Categoría 7 &nbsp;▸ Categoría 7A &nbsp;▸ Categoría 8</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="net.c2.title">UTP Cabling Systems</h3>
+            <p class="dc-banner-desc" data-i18n="net.c2.d1">En los últimos años, el cableado estructurado ha llevado a cabo una gran evolución con el objetivo de soportar mayores velocidades y arquitecturas de red más complejas que permitan una gestión eficiente para los edificios inteligentes. Las siguientes categorías (6-8) son las más demandadas actualmente:</p>
+            <p class="dc-banner-desc" data-i18n-html="net.c2.d2">▸ Categoría 6 &nbsp;▸ Categoría 6A &nbsp;▸ Categoría 7 &nbsp;▸ Categoría 7A &nbsp;▸ Categoría 8</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/networking/utp.jpg" alt="UTP Cabling" onerror="this.parentElement.style.display='none';">
@@ -64,10 +71,10 @@
 
         <div class="dc-banner-card">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Fibra Óptica</h3>
-            <p class="dc-banner-desc">En la era de la transformación digital, la fibra óptica se ha consolidado como la columna vertebral de las comunicaciones modernas. A diferencia del cobre, utiliza pulsos de luz para transmitir datos, alcanzando distancias mayores y velocidades simétricas sin interferencias electromagnéticas.</p>
-            <p class="dc-banner-desc">▸ Fibra Monomodo (SM) &nbsp;▸ Fibra Multimodo (MM) — OM3/OM4/OM5</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="net.c3.title">Fibra Óptica</h3>
+            <p class="dc-banner-desc" data-i18n="net.c3.d1">En la era de la transformación digital, la fibra óptica se ha consolidado como la columna vertebral de las comunicaciones modernas. A diferencia del cobre, utiliza pulsos de luz para transmitir datos, alcanzando distancias mayores y velocidades simétricas sin interferencias electromagnéticas.</p>
+            <p class="dc-banner-desc" data-i18n-html="net.c3.d2">▸ Fibra Monomodo (SM) &nbsp;▸ Fibra Multimodo (MM) — OM3/OM4/OM5</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/networking/fibra.jpg" alt="Fibra Óptica" onerror="this.parentElement.style.display='none';">
@@ -76,9 +83,9 @@
 
         <div class="dc-banner-card dc-banner-card--reverse">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Telecom Grounding Systems</h3>
-            <p class="dc-banner-desc">Sistemas de puesta a tierra para telecomunicaciones que protegen la infraestructura activa y pasiva de descargas eléctricas y ruido electromagnético, cumpliendo con estándares internacionales de instalación.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="net.c4.title">Telecom Grounding Systems</h3>
+            <p class="dc-banner-desc" data-i18n="net.c4.d1">Sistemas de puesta a tierra para telecomunicaciones que protegen la infraestructura activa y pasiva de descargas eléctricas y ruido electromagnético, cumpliendo con estándares internacionales de instalación.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/networking/grounding.jpg" alt="Telecom Grounding" onerror="this.parentElement.style.display='none';">
@@ -87,9 +94,9 @@
 
         <div class="dc-banner-card">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Sistemas de Canalización de Cable</h3>
-            <p class="dc-banner-desc">Rutas organizadas y protegidas para el tendido de cableado de red y energía: canastas, bandejas de malla, ductos y canaletas que garantizan orden, accesibilidad y cumplimiento normativo en toda la instalación.</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="net.c5.title">Sistemas de Canalización de Cable</h3>
+            <p class="dc-banner-desc" data-i18n="net.c5.d1">Rutas organizadas y protegidas para el tendido de cableado de red y energía: canastas, bandejas de malla, ductos y canaletas que garantizan orden, accesibilidad y cumplimiento normativo en toda la instalación.</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/networking/canalizacion.jpg" alt="Canalización de Cable" onerror="this.parentElement.style.display='none';">
@@ -98,10 +105,10 @@
 
         <div class="dc-banner-card dc-banner-card--reverse">
           <div class="dc-banner-body">
-            <h3 class="dc-banner-title">Metalmecánica — Gabinetes, Racks y Bandejas</h3>
-            <p class="dc-banner-desc">La infraestructura física es el soporte vital que garantiza el orden, la seguridad y la correcta ventilación de los equipos activos y pasivos. Un sistema de gestión de cableado bien diseñado prolonga la vida útil de la red y facilita el mantenimiento técnico.</p>
-            <p class="dc-banner-desc">▸ Gabinetes de Piso (Racks Cerrados) &nbsp;▸ Gabinetes de Pared &nbsp;▸ Racks Abiertos (Two-Post / Four-Post) &nbsp;▸ Bandejas de Malla y Organizadores</p>
-            <a href="index.html#contacto" class="dc-banner-btn">Solicitar información →</a>
+            <h3 class="dc-banner-title" data-i18n="net.c6.title">Metalmecánica — Gabinetes, Racks y Bandejas</h3>
+            <p class="dc-banner-desc" data-i18n="net.c6.d1">La infraestructura física es el soporte vital que garantiza el orden, la seguridad y la correcta ventilación de los equipos activos y pasivos. Un sistema de gestión de cableado bien diseñado prolonga la vida útil de la red y facilita el mantenimiento técnico.</p>
+            <p class="dc-banner-desc" data-i18n-html="net.c6.d2">▸ Gabinetes de Piso (Racks Cerrados) &nbsp;▸ Gabinetes de Pared &nbsp;▸ Racks Abiertos (Two-Post / Four-Post) &nbsp;▸ Bandejas de Malla y Organizadores</p>
+            <a href="index.html#contacto" class="dc-banner-btn" data-i18n="common.request.info">Solicitar información →</a>
           </div>
           <div class="dc-banner-visual">
             <img src="images/networking/racks.jpg" alt="Gabinetes y Racks" onerror="this.parentElement.style.display='none';">
@@ -116,42 +123,37 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="index.html"><img src="images/logo-equant.svg" alt="EquantCR - Engineering &amp; IT Solutions" class="logo-img footer-logo-img"></a>
-      <p class="footer-tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
+      <p class="footer-tagline" data-i18n="footer.tagline">Soluciones integrales en telecomunicaciones y electromecánica para Costa Rica.</p>
     </div>
     <div class="footer-links-col">
-      <h4>Servicios</h4>
-      <a href="datacenters.html">Datacenters</a>
-      <a href="networking.html">Networking</a>
-      <a href="switching.html">Switching &amp; Routing</a>
-      <a href="respaldoDeEnergia.html">Respaldo de Energía</a>
-      <a href="telefoniaVoip.html">Telefonía VoIP</a>
-      <a href="sistemasDeEnfriamiento.html">Sistemas de Enfriamiento</a>
+      <h4 data-i18n="footer.services">Servicios</h4>
+      <a href="datacenters.html" data-i18n="svc.name.dc">Datacenters</a>
+      <a href="networking.html" data-i18n="svc.name.net">Networking</a>
+      <a href="switching.html" data-i18n="svc.name.sw">Switching &amp; Routing</a>
+      <a href="respaldoDeEnergia.html" data-i18n="svc.name.energy">Respaldo de Energía</a>
+      <a href="telefoniaVoip.html" data-i18n="svc.name.voip">Telefonía VoIP</a>
+      <a href="sistemasDeEnfriamiento.html" data-i18n="svc.name.cooling">Sistemas de Enfriamiento</a>
     </div>
     <div class="footer-links-col">
-      <h4>Más servicios</h4>
-      <a href="seguridadElectronica.html">Seguridad Electrónica</a>
-      <a href="electromecanica.html">Electromecánica</a>
-      <a href="automatizacion.html">Automatización</a>
-      <a href="enlaces.html">Enlaces Inalámbricos</a>
-      <a href="digitalSignage.html">Digital Signage</a>
-      <a href="index.html#nosotros"><strong>Acerca de nosotros</strong></a>
-      <a href="index.html#contacto"><strong>Contáctenos</strong></a>
+      <h4 data-i18n="footer.more.services">Más servicios</h4>
+      <a href="seguridadElectronica.html" data-i18n="svc.name.security">Seguridad Electrónica</a>
+      <a href="electromecanica.html" data-i18n="svc.name.electro">Electromecánica</a>
+      <a href="automatizacion.html" data-i18n="svc.name.auto">Automatización</a>
+      <a href="enlaces.html" data-i18n="svc.name.links">Enlaces Inalámbricos</a>
+      <a href="digitalSignage.html" data-i18n="svc.name.signage">Digital Signage</a>
+      <a href="index.html#nosotros" data-i18n-html="footer.about"><strong>Acerca de nosotros</strong></a>
+      <a href="index.html#contacto" data-i18n-html="footer.contact"><strong>Contáctenos</strong></a>
     </div>
   </div>
-  <div class="footer-bottom"><span>© 2026 EquantCR. Todos los derechos reservados.</span></div>
+  <div class="footer-bottom"><span>© 2026 EquantCR. <span data-i18n="footer.rights">Todos los derechos reservados.</span></span></div>
 </footer>
 
 <a class="fab-whatsapp" href="https://wa.me/50688545445" target="_blank" rel="noopener noreferrer" title="Contáctenos por WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
 </a>
-
 <button class="back-to-top" title="Volver al inicio" aria-label="Volver al inicio">
   <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </button>
-<script>
-  var btt = document.querySelector('.back-to-top');
-  window.addEventListener('scroll', function(){ btt.classList.toggle('visible', window.scrollY > 400); });
-  btt.addEventListener('click', function(){ window.scrollTo({top:0,behavior:'smooth'}); });
-</script>
+<script src="js/i18n.js"></script>
 </body>
 </html>
