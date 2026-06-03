@@ -127,7 +127,6 @@ ul { list-style: none; }
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: var(--nav-h);
   padding: 0 40px;
   transition: background 0.3s, backdrop-filter 0.3s;
