@@ -125,6 +125,8 @@
       'security.c4.d1': 'Anticípese a cualquier riesgo con nuestras alarmas inteligentes. Contamos con sensores de movimiento de alta precisión, seguridad perimetral y monitoreo preventivo diseñado para detectar y disuadir cualquier intento de acceso no autorizado.',
       'security.c5.title': 'Sistemas de Audio y Video',
       'security.c5.d1': 'Optimice sus espacios con soluciones audiovisuales de calidad superior. Somos expertos en el diseño e integración de salas de conferencias, sistemas de megafonía, videowalls y plataformas multimedia.',
+      'security.c6.title': 'Barreras de Acceso Vehicular',
+      'security.c6.d1': 'Controle y restrinja el ingreso vehicular a sus instalaciones con sistemas de barreras automáticas de alta resistencia. Diseñadas para entornos de alto tráfico, se integran con lectores de tarjetas, cámaras de reconocimiento de placas y controles remotos para garantizar un flujo vehicular seguro, ordenado y completamente auditable.',
       // ELECTROMECANICA
       'elec.hero.tag': 'Ingeniería eléctrica y mecánica',
       'elec.hero.title': 'ELECTRO<span class="highlight">MECÁNICA</span>',
@@ -139,6 +141,8 @@
       'elec.c4.d1': 'Instalamos sistemas de protección atmosférica de última generación. Nuestras soluciones están diseñadas para captar y disipar descargas eléctricas naturales, evitando daños estructurales y fallos en sistemas sensibles.',
       'elec.c5.title': 'Calidad de Energía',
       'elec.c5.d1': 'Analizamos y optimizamos el flujo eléctrico para eliminar perturbaciones como armónicos o variaciones de voltaje. Mejoramos el rendimiento de su maquinaria, reducimos costos de mantenimiento y prolongamos la vida útil de sus equipos.',
+      'elec.c6.title': 'Soldadura Exotérmica',
+      'elec.c6.d1': 'Realizamos soldadura exotérmica de alta precisión para garantizar conexiones eléctricas subterráneas e industriales de máxima conductividad. Uniones permanentes, resistentes a la corrosión y con cero mantenimientos para la protección total de su sistema de puesta a tierra.',
       // AUTOMATIZACION
       'auto.hero.tag': 'Inteligencia operativa',
       'auto.hero.title': 'AUTOMA<span class="highlight">TIZACIÓN</span>',
@@ -304,6 +308,8 @@
       'security.c4.d1': 'Anticipate any risk with our smart alarms. We have high-precision motion sensors, perimeter security and preventive monitoring designed to detect and deter any unauthorized access attempt.',
       'security.c5.title': 'Audio and Video Systems',
       'security.c5.d1': 'Optimize your spaces with superior quality audiovisual solutions. We are experts in the design and integration of conference rooms, public address systems, videowalls and multimedia platforms.',
+      'security.c6.title': 'Vehicular Access Barriers',
+      'security.c6.d1': 'Control and restrict vehicle access to your facilities with heavy-duty automatic barrier systems. Designed for high-traffic environments, they integrate with card readers, license plate recognition cameras and remote controls to ensure a safe, orderly and fully auditable vehicle flow.',
       // ELECTROMECANICA
       'elec.hero.tag': 'Electrical and Mechanical Engineering',
       'elec.hero.title': 'ELECTRO<span class="highlight">MECHANICS</span>',
@@ -318,6 +324,8 @@
       'elec.c4.d1': 'We install state-of-the-art atmospheric protection systems. Our solutions are designed to capture and dissipate natural electrical discharges, preventing structural damage and failures in sensitive systems.',
       'elec.c5.title': 'Power Quality',
       'elec.c5.d1': "We analyze and optimize electrical flow to eliminate disturbances such as harmonics or voltage variations. We improve your machinery's performance, reduce maintenance costs and extend the service life of your equipment.",
+      'elec.c6.title': 'Exothermic Welding',
+      'elec.c6.d1': 'We perform high-precision exothermic welding to ensure maximum-conductivity underground and industrial electrical connections. Permanent, corrosion-resistant, zero-maintenance joints for the total protection of your grounding system.',
       // AUTOMATIZACION
       'auto.hero.tag': 'Operational Intelligence',
       'auto.hero.title': 'AUTOMA<span class="highlight">TION</span>',
