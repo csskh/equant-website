@@ -169,7 +169,15 @@
       'signage.c2.d2': '▸ Colaboración remota &nbsp;▸ Video HD &nbsp;▸ Audio profesional',
       'signage.c3.title': 'VideoWall y Pantallas Gigantes',
       'signage.c3.d1': 'Tecnología de visualización de gran formato que ofrece una experiencia inmersiva y de alto impacto visual. Ideal para centros de monitoreo, lobbies corporativos, auditorios y espacios públicos de alto tráfico.',
-      'signage.c3.d2': '▸ 4K / 8K &nbsp;▸ LED Directo &nbsp;▸ LCD Mosaico &nbsp;▸ Gran formato'
+      'signage.c3.d2': '▸ 4K / 8K &nbsp;▸ LED Directo &nbsp;▸ LCD Mosaico &nbsp;▸ Gran formato',
+      'signage.c4.title': 'Pantallas Interactivas y Kioscos',
+      'signage.c4.d1': 'Optimice la atención al cliente y agilice sus procesos con nuestras soluciones de kioskos interactivos. Diseñados para ofrecer una experiencia intuitiva, autónoma y rápida, nuestros terminales digitales mejoran la interactividad en el punto de venta, reducen los tiempos de espera y modernizan la gestión de su negocio.',
+      'signage.c5.title': 'Pantallas publicitarias',
+      'signage.c5.d1': 'Transforma la visibilidad de tu negocio con pantallas y tótems publicitarios.',
+      'signage.c5.d2': 'Captura la atención de tus clientes al instante con soluciones de señalización digital de alto impacto. Diseñados para interiores y exteriores, nuestros tótems y pantallas publicitarias combinan tecnología LED y LCD de alta definición con un diseño elegante, convirtiendo cualquier espacio en un canal de comunicación dinámico y moderno.',
+      'signage.c6.title': 'Automatización de Salas',
+      'signage.c6.d1': 'Optimice la Gestión de sus Espacios con Automatización de Salas de Videoconferencia',
+      'signage.c6.d2': 'Transforme la dinámica de sus reuniones y elimine los conflictos de reserva en su oficina. Nuestras soluciones avanzadas de automatización integran tecnología audiovisual de alta definición con un sistema inteligente de agendamiento en tiempo real, diseñado para elevar la productividad y la colaboración corporativa.'
     },
     en: {
       // NAVBAR
@@ -340,7 +348,15 @@
       'signage.c2.d2': '▸ Remote collaboration &nbsp;▸ HD Video &nbsp;▸ Professional audio',
       'signage.c3.title': 'VideoWall and Giant Screens',
       'signage.c3.d1': 'Large-format visualization technology that offers an immersive and high-visual-impact experience. Ideal for monitoring centers, corporate lobbies, auditoriums and high-traffic public spaces.',
-      'signage.c3.d2': '▸ 4K / 8K &nbsp;▸ Direct LED &nbsp;▸ LCD Mosaic &nbsp;▸ Large format'
+      'signage.c3.d2': '▸ 4K / 8K &nbsp;▸ Direct LED &nbsp;▸ LCD Mosaic &nbsp;▸ Large format',
+      'signage.c4.title': 'Interactive Screens and Kiosks',
+      'signage.c4.d1': 'Optimize customer service and streamline your processes with our interactive kiosk solutions. Designed to offer an intuitive, self-service and fast experience, our digital terminals improve interactivity at the point of sale, reduce wait times and modernize your business management.',
+      'signage.c5.title': 'Advertising Displays',
+      'signage.c5.d1': 'Transform your business visibility with advertising displays and totems.',
+      'signage.c5.d2': 'Capture your customers\' attention instantly with high-impact digital signage solutions. Designed for indoor and outdoor use, our totems and advertising displays combine high-definition LED and LCD technology with an elegant design, turning any space into a dynamic and modern communication channel.',
+      'signage.c6.title': 'Room Automation',
+      'signage.c6.d1': 'Optimize the Management of Your Spaces with Videoconference Room Automation',
+      'signage.c6.d2': 'Transform the dynamics of your meetings and eliminate booking conflicts in your office. Our advanced automation solutions integrate high-definition audiovisual technology with an intelligent real-time scheduling system, designed to boost corporate productivity and collaboration.'
     }
   };
 
